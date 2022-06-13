@@ -1,0 +1,270 @@
+
+html,body {
+  height:100%;
+  width:100;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  margin-top:0;
+}
+.content p {
+  font-size : 60%;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+}
+.content h2 {
+  font-size : 100%;
+  font-family: sofia-pro, yu-gothic,  sans-serif;
+}
+.content h3 {
+  font-size : 80%;
+  font-family: sofia-pro, yu-gothic,  sans-serif;
+}
+ 
+/* Body */
+
+ /* Desk image */
+.desk-image{
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  opacity : 0.7;
+  z-index: -1;
+}
+
+ /* My text*/
+
+.first-text-block{
+  position: relative;
+  height:auto;
+  background-color : white;
+  width : 40%;
+  top : 130px;
+  margin-left : 8.1%;
+}
+
+
+
+.title1{
+ position: relative;
+ font-weight: bold;
+ margin-left : 8.1%;
+ padding-top: 8.1%;
+}
+.title2{
+ position: relative;
+ font-weight: bold;
+ margin-top : 4.1%;
+ margin-left : 8.1%;
+ color: #009353;
+}
+
+.text1{
+ position: relative;
+ text-align: justify;
+ margin: 8.1%;
+ color: black;
+}
+ 
+ 
+ /* Button */
+.center {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  background-color: none;
+  padding-bottom: 8.1%;
+  height: 70px;
+}
+
+.button {
+ position: relative;
+ align-items: center;
+ background-color: #009353;
+ border: 2px solid #009353;
+ color: white;
+ cursor: pointer;
+ display: inline-block;
+ fill: #009353;
+
+ height: 100%;
+ width: 90%;
+
+ justify-content: center;
+
+ padding: 0% 8%;
+ text-align: center;
+
+ transition: all .3s;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+}
+ 
+.button:focus {
+   color: #006D3E;
+}
+ 
+ .button:hover {
+   border-color: #006D3E;
+   color:#006D3E;
+   fill: #006D3E;
+ }
+ 
+ .button:active {
+   border-color: #006D3E;
+   color: #006D3E;
+   fill: #006D3E;
+ }
+
+/* Diensten */
+.second-block{
+  position : relative;
+  height:auto;
+  background-color :white;
+  top:  180px;
+  padding-bottom: 10%;
+}
+.second-text-block h2{
+  position: relative;
+  padding: 8.6% 8.6% 2.6% 8.6%;
+}
+.second-text-block p{
+  position: relative;
+  margin:0% 8.6% 8.6% 8.6%;
+}
+
+
+.three-blocks{
+  position: relative;
+  height: auto;
+  display : flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+/* 2nd Opinion */
+
+.ndOpinion{
+  position: relative;
+  background-color : white;
+  text-align: center;
+  -moz-box-shadow: 4px 4px 3px #009353;
+  -webkit-box-shadow: 4px 4x 3px #009353;
+  box-shadow: 4px 4px 3px #009353;
+  padding : 5%;
+}
+.ndOpinion h2{
+  margin-top : 5%;
+  top: 20%;
+}
+
+.ndOpinion p{
+  margin-top : 5%;
+  color: #009353;
+}
+
+
+
+/* Slider */
+
+.theswip{
+  position: relative;
+  top : 180px;
+  height: 400px;
+}
+.swiper-slider {
+  position: relative;
+  height : auto;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position : relative;
+  height : auto;
+}
+
+.swiper-slide {
+  text-align: left;
+  background: #F8FFF9;
+  height : auto;
+}
+
+.frame-content{
+  position:relative;
+  height:auto;
+}
+
+.frame-content h2{
+  margin-left: 8.6%;
+  margin-top: 9%;
+  height : auto;
+  white-space: nowrap;
+
+}
+.frame-content p{
+  color: black;
+  margin-left: 8.6%;
+  margin-top: 5%;
+  height : auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.triangle-image{
+  float:right;
+  height : auto;
+  shape-outside: polygon(90% 0%, 90% 95%, 10% 95%);
+}
+.swiper-pagination .swiper-pagination-bullet{
+  width: 10px; /*size of the bullets*/
+  height: 10px; /*size of the bullets*/
+  background: #009353;
+  text-align: center;
+  opacity: 1;
+  margin: 30px !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+  background: white;
+  height : auto;
+  border: 8px solid #009353;
+}
+
+
+/*Overheidsinstellingen*/
+
+.final_block{
+  position:relative;
+  margin-top:180px;
+  height:auto;
+  width: 100%;
+  padding : 0% 8.6%;
+  margin-bottom:50px;
+}
+
+.final_block h2{
+  top:0px;
+  height:auto;
+  position: relative;
+  margin-bottom : 8.6%;
+}
+.images{
+  display: flex;
+  height: 100px;
+  margin-bottom:0px;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.mask-image{
+  width : 15%;
+  height:auto;
+}

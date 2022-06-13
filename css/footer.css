@@ -1,0 +1,96 @@
+.footer {
+    color:#f0f9ff;
+    background-color:#009353;
+    position: relative;
+    margin:0;
+    height:auto;
+    
+  }
+  
+
+
+  .footer .item.first{
+    margin-left:25%;
+    margin-right: 5%;
+  }
+
+  .footer .item.third{
+    margin-right:20%;
+    margin-left: 5%;
+}
+
+
+  .footer ul {
+    padding:0;
+    list-style:none;
+    line-height:6%;
+    font-size:55%;
+    font-family: yu-gothic;
+    margin-bottom:10%;
+  }
+  
+  .footer a {
+    color:inherit;
+    text-decoration:none;
+  }
+
+  .footer ul a {
+    opacity:0.8;
+  }
+  .footer h3 {
+    
+    margin-top:15%;
+    margin-bottom: 2%;
+    font-weight:bold;
+    font-family:yu-gothic;
+    font-size:100%;
+  }
+  .footer p {
+    display: inline;
+  }
+  
+  .footer ul a:hover {
+    opacity:1;
+  }
+
+  .footer .logo{
+    height:15%;
+    width:15%;
+  }
+  
+/*terms and conditions */
+  .footer .line{
+      background-color:black;
+      opacity:0.3;
+      bottom:0;
+      height:0.5px;
+      width:100%;
+}
+  .footer .Terms {
+    text-align:left;
+    opacity:0.6;
+    font-size:50%;
+    bottom:0%;
+  }
+
+  .footer .copyright {
+    text-align:right;
+    opacity:0.6;
+    font-size:50%;
+    bottom:0;
+  }
+  
+
+/* little pages*/
+  @media only screen and (max-width:870px) {
+    .footer .text,.logo{
+        display:none;
+    }
+  }
+/*really little pages*/
+  @media only screen and (max-width:650px) {
+    .footer .one{
+      display:none;
+    }
+
+  }

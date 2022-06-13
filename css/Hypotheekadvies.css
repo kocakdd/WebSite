@@ -1,0 +1,133 @@
+
+html,body {
+    height:100%;
+    width:100;
+    margin: 0;
+    padding: 0;
+ }
+ .content{
+  height:auto;
+}
+.content p {
+  font-size : 60%;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+}
+.content h2 {
+  font-size : 100%;
+  font-family: sofia-pro, yu-gothic,  sans-serif;
+}
+.content h3 {
+  font-size : 80%;
+  font-family: sofia-pro, yu-gothic,  sans-serif;
+}
+
+ /* Body */
+
+ /* Desk image */
+ .desk-image{
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  opacity : 0.9;
+  z-index: -1;
+}
+
+ /* My text*/
+
+.first-text-block{
+  position: relative;
+  height:800px;
+  background-color : white;
+  top : 350px;
+  margin: 0% 18%;
+  padding-bottom: 5%;
+}
+
+.bigTitle1{
+  position: absolute;
+  font-weight: bold;
+  top : -130px;
+  color : white;
+  font-family: sofia-pro, sans-serif;
+  font-size : 220%;
+  margin-left:25%;
+}
+
+.bigTitle2{
+  position: absolute;
+  top : -70px;
+  color : white;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  font-size : 140%;
+  margin-left:15%;
+}
+
+.title1{
+ position: relative;
+ font-weight: bold;
+ margin-left : 8.1%;
+ padding-top: 8.1%;
+}
+.title2{
+ position: relative;
+ font-weight: bold;
+ margin-top : 4.1%;
+ margin-left : 8.1%;
+ color: #009353;
+}
+
+.text1{
+  height:auto;
+ position: relative;
+ text-align: justify;
+ margin: 8.1%;
+ color: black;
+}
+ 
+ 
+ /* Steps */
+
+.step-g{
+  position : relative;
+  height:30%;
+  width : 100%;
+  top : 50%;
+  background-color: #F8FFF9;
+  display : flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+.text-step{
+  width : 30%;
+  height:auto;
+}
+.text_step h2{
+  padding-bottom: 4%;
+}
+
+.step-w{
+  height:30%;
+  position : relative;
+  width : 100%;
+  top : 50%;
+  background-color: white;
+  display : flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse
+ }
+
+
+@media screen and (max-width: 706px) {
+  .text-step{
+    margin : 5%;
+  }
+
+  .step-g img{
+    width : 30%;
+  }
+  .step-w img{
+    width : 30%;
+  }
+}
