@@ -1,7 +1,7 @@
 
 html,body {
   height:100%;
-  width:100;
+  width:100%;
   margin: 0;
   padding: 0;
 }
@@ -271,4 +271,34 @@ html,body {
 .mask-image{
   width : 15%;
   height:auto;
+}
+
+
+
+@media screen and (max-width: 706px) {
+  .first-text-block{
+    width : 60%;
+  }
+
+  .triangle-image{
+    display: none;
+  }
+  .frame-content p{
+    margin : 5% 8.6%;
+    padding-bottom: 3%;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -20px !important;
+}
+}
+
+@media screen and (max-width : 525px){
+  .three-blocks{
+    height : 450px;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
 }
