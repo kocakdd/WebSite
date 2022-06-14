@@ -107,7 +107,10 @@
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
- 
+
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
     </div>
 </div>
 </div>
@@ -148,6 +151,10 @@
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
 
     });
