@@ -5,10 +5,11 @@
 
   <link rel="stylesheet" href="../css/header.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <!-- Font links -->
   <link rel="stylesheet" href="https://use.typekit.net/hmw2slg.css">
   <link rel="stylesheet" href="https://fontsgeek.com/yu-gothic-font">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   
   <div id="loader" class="loader"></div>
   <script>
