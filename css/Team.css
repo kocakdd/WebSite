@@ -81,7 +81,9 @@
   height:auto;
   background-color :white;
   top:  0px;
+  padding-bottom: 10%;
 }
+
 .third-text-block h2{
   font-weight: bold;
   position: relative;
@@ -97,99 +99,34 @@
 }
 .boxes{
   position:relative;
-  height: 400px;
-  width: 100%;
+  height: auto;
+  display : flex;
+  justify-content: space-evenly;
+  align-content: center;
 }
-.boxe1{
+
+.boxe{
+  position: relative;
   background-color : white;
-  box-shadow:4px 4px 10px #009353;
-  position: absolute;
-  margin-left:8.6%;
-  margin-top:50px;
-  height: 350px;
-  width: 350px;
   text-align: center;
-  padding-top: 7%;
-  padding-bottom: 5%;
+  -moz-box-shadow: 4px 4px 3px #009353;
+  -webkit-box-shadow: 4px 4x 3px #009353;
+  box-shadow: 4px 4px 3px #009353;
+  padding : 5%;
   
   }
-  .image1{
-    
-    width:190px;
-    text-align: center;
-    position:relative ;
-  }
-  .image2{
-    width:250px;
-    text-align: center;
-    position:relative ;
-  }
-  .image3{
-    width:180px;
-    text-align: center;
-    position:relative ;
 
+  .boxe h2{
+    margin-top : 5%;
+    top: 20%;
   }
-  .image4{
-    width:110px;
-    text-align: center;
-    position:relative ;
 
+  @media screen and (max-width : 750px){
+    .boxes{
+      height : 450px;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+    }
   }
-  .text2{
-    position: relative;
-    font-size :230%;
-    font-family:yu-gothic, sans-serif;
-    margin-top:35px;
-    text-align:center;
-    color: black;
-    bottom:7%;
-  }
-.boxe2{
-  background-color : white;
-  box-shadow:4px 4px 10px #009353;
-  position: absolute;
-  margin-left:52%;
-  margin-top:70px;
-  height: 350px;
-  width: 350px;
-  text-align: center;
-  padding-top: 7%;
-  padding-bottom: 5%;
-}
-.boxe3{
-  background-color : white;
-  box-shadow:4px 4px 10px #009353;
-  position: absolute;
-  margin-left:8.6%;
-  margin-top:450px;
-  height: 350px;
-  width: 350px;
-  text-align: center;
-  padding-top: 7%;
-  padding-bottom: 5%;
-}
-.boxe4{
-  background-color : white;
-  box-shadow:4px 4px 10px #009353;
-  position: absolute;
-  margin-left:52%;
-  margin-top:450px;
-  height: 350px;
-  width: 350px;
-  text-align: center;
-  padding-top: 7%;
-  padding-bottom: 5%;
-}
-.boxe5{
-  background-color : white;
-  box-shadow:4px 4px 10px #009353;
-  position: absolute;
-  margin-left:30%;
-  margin-top:830px;
-  height: 350px;
-  width: 350px;
-  text-align: center;
-  padding-top: 7%;
-  padding-bottom: 5%;
-}
