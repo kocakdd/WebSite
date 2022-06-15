@@ -10,13 +10,15 @@
 	<META	NAME="subject"	CONTENT="Home">	
 
   <!-- CSS link -->
-  <link rel="stylesheet" href="../css/Home.css">
+  <link rel="stylesheet" type="text/css" href="../css/Home.css">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 	
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   <!-- Icon image -->
+  <link rel="icon" href="../images/LogoHyp.svg">
 </head>	
 
 <body>
