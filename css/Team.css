@@ -1,4 +1,8 @@
-html,body {
+/* Body */
+
+ /* Desk image */
+
+ html,body {
   height:100%;
   width:100;
   margin: 0;
@@ -28,7 +32,7 @@ html,body {
   position: relative;
   width: 100%;
   height: 500px;
-  opacity : 0.9;
+  opacity : 0.7;
   z-index: -1;
 }
 
@@ -39,8 +43,8 @@ html,body {
   top : 250px;
   color : white;
   font-family: sofia-pro, sans-serif;
-  font-size : 300%;
-  margin-left:5%;
+  font-size : 220%;
+  margin-left:15%;
 }
 
 .bigTitle2{
@@ -48,8 +52,8 @@ html,body {
   top : 300px;
   color : white;
   font-family: yu-gothic, sofia-pro, sans-serif;
-  font-size : 200%;
-  margin-left:5%;
+  font-size : 140%;
+  margin-left:15%;
 }
 
 .second-text-block{
@@ -58,18 +62,134 @@ html,body {
   background-color :#F8FFF9;
   top:  0px;
 }
-.littleTitle{
+.second-text-block h2{
   font-weight: bold;
   position: relative;
+  font-family:sofia-pro;
+  font-size:100%;
   padding: 4.6% 8.6% 2.6% 8.6%;
 }
-p{
+.second-text-block p{
   position: relative;
+  font-size:70%;
+  font-family:yu-gothic, sofia-pro, sans-serif;
   padding:0% 8.6% 8.6% 8.6%;
 }
 
-.Kernwaarden{
-  position: relative;
+.third-text-block{
+  position : relative;
   height:auto;
+  background-color :white;
+  top:  0px;
+}
+.third-text-block h2{
+  font-weight: bold;
+  position: relative;
+  font-family:sofia-pro;
+  font-size:100%;
+  padding: 4.6% 8.6% 2.6% 8.6%;
+}
+.third-text-block p{
+  position: relative;
+  font-size:70%;
+  font-family:yu-gothic, sofia-pro, sans-serif;
+  padding:0% 8.6% 8.6% 8.6%;
+}
+.boxes{
+  position:relative;
+  height: 400px;
+  width: 100%;
+}
+.boxe1{
+  background-color : white;
+  box-shadow:4px 4px 10px #009353;
+  position: absolute;
+  margin-left:8.6%;
+  margin-top:50px;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  
+  }
+  .image1{
+    
+    width:190px;
+    text-align: center;
+    position:relative ;
+  }
+  .image2{
+    width:250px;
+    text-align: center;
+    position:relative ;
+  }
+  .image3{
+    width:180px;
+    text-align: center;
+    position:relative ;
 
+  }
+  .image4{
+    width:110px;
+    text-align: center;
+    position:relative ;
+
+  }
+  .text2{
+    position: relative;
+    font-size :230%;
+    font-family:yu-gothic, sans-serif;
+    margin-top:35px;
+    text-align:center;
+    color: black;
+    bottom:7%;
+  }
+.boxe2{
+  background-color : white;
+  box-shadow:4px 4px 10px #009353;
+  position: absolute;
+  margin-left:52%;
+  margin-top:70px;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+.boxe3{
+  background-color : white;
+  box-shadow:4px 4px 10px #009353;
+  position: absolute;
+  margin-left:8.6%;
+  margin-top:450px;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+.boxe4{
+  background-color : white;
+  box-shadow:4px 4px 10px #009353;
+  position: absolute;
+  margin-left:52%;
+  margin-top:450px;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+.boxe5{
+  background-color : white;
+  box-shadow:4px 4px 10px #009353;
+  position: absolute;
+  margin-left:30%;
+  margin-top:830px;
+  height: 350px;
+  width: 350px;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
 }
