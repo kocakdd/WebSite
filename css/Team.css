@@ -101,12 +101,14 @@
   position: relative;
   height: auto;
   display : flex;
-  justify-content: space-evenly;
-  align-content: center;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .boxe{
-  width:250px;
+  width:200px;
   position: relative;
   background-color : white;
   text-align: center;
@@ -114,27 +116,141 @@
   -webkit-box-shadow: 4px 4x 3px #009353;
   box-shadow: 4px 4px 3px #009353;
   padding:3%;
-  min-height: 200px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius:20px;
+  margin:1%
   }
-  .logo{
-    width:auto;
+  .logo2{
+    height:120px;
+    width:120px;
   }
-  
 
    .boxe h2{
-    margin-top : 5%;
     top: 20%;
+    margin-bottom:30px;
   }
 
-  @media screen and (max-width : 880px){
-    .boxes{
-      height: 800px;
-      justify-content: space-around;
-      align-content: space-around;
-      flex-wrap: wrap;
-      flex-direction: row-reverse;
-    }
+  /****************/
+  /** MANAGEMENT **/
+  /****************/
+.Management-text-block{
+  position : relative;
+  height:auto;
+  background-color :white;
+  top:  0px;
+  padding-bottom: 10%;
+}
 
-    
+.Management-text-block h2{
+  font-weight: bold;
+  position: relative;
+  font-family:sofia-pro;
+  font-size:100%;
+  padding: 1.6% 8.6% ;
+}
+.Management-text-block p{
+  position: relative;
+  padding:0% 8.6% 8.6% 8.6%;
+}
 
-  }
+.Management-img{
+  position: relative;
+  height: auto;
+  display : flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.crew{
+  position: relative;
+  background-color : white;
+  text-align: center;
+  padding:3%;
+}
+
+.Member{
+  width:300px;
+  height:300px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius:20px;
+}
+
+.Management-text-block .name{
+  top: 2%;
+  margin-bottom:30px;
+  font-weight: bold;
+  position: relative;
+  font-family:sofia-pro;
+  font-size:100%;
+  padding: 0% 8.6% ;
+}
+
+.Management-text-block .role{
+  position: relative;
+  font-size:90%;
+  opacity: 0.7 ;
+  font-family:yu-gothic, sofia-pro, sans-serif;
+  padding:0%  8.6%;
+}
+
+/*****************/
+/**** TEAM *******/
+/*****************/
+
+.Team-text-block{
+  position : relative;
+  height:auto;
+  background-color :white;
+  top:  0px;
+}
+
+.Team-text-block h2{
+  font-weight: bold;
+  position: relative;
+  font-family:sofia-pro;
+  font-size:100%;
+  padding: 1.6% 8.6% ;
+}
+.Team-text-block p{
+  position: relative;
+  padding:0% 8.6% 8.6% 8.6%;
+}
+
+.Team-img{
+  position: relative;
+  height: auto;
+  display : flex;
+  align-content: center;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Team-text-block .Member{
+  height:200px;
+  width:200px;
+}
+
+.Team-text-block .name{
+  top: 2%;
+  margin-bottom:30px;
+  font-weight: bold;
+  position: relative;
+  font-family:sofia-pro;
+  font-size:100%;
+  padding: 0% 8.6% ;
+}
+
+.Team-text-block .role{
+  position: relative;
+  font-size:90%;
+  opacity: 0.7;
+  font-family:yu-gothic, sofia-pro, sans-serif;
+  padding:0%  8.6%;
+}
+
