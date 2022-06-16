@@ -47,6 +47,7 @@
         <ul class="link_menu">
 
           <li><a href="Home.php"><p>Home</p></a></li>
+          <!--
           <li> <a href="#"> <p>Diensten</p> </a>
             <ul>
               <li><a href="Hypotheekadvies.php"><p>Hypotheekadvies</p></a></li>
@@ -54,13 +55,14 @@
               <li><a href="Hypotheekadvies.php"><p>Hypotheekready</p></a></li>
             </ul>
           </li>
+          -->
           <li><a href="Team.php"><p>Team</p></a></li>
           <li><a href="Contact.php"><p>Contact</p></a></li>
       
           <?php if(isset($_SESSION['auth'])):?>
             <li><a href="Logout.php"><p> Logout</p></a></li>
           <?php else:?>
-            <li><a href="Login_Menu.php"> <p>Login</p></a></li>
+            <li><a href="Login.php"> <p>Login</p></a></li>
           <?php endif ?>
 
           <!-- Check if this still work when it will be online -->

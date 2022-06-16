@@ -75,10 +75,8 @@
     </form>
   </div>
   
-  <div class="form-end">
-    <img class="form-image" src="../images/group.png" alt="Font Image">
-  </div>
-  </div>
+
+</div>
 
    <!--Footer-->   
    <?php include('footer_EN.php'); ?> 
