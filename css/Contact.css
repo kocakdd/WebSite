@@ -10,7 +10,7 @@ html,body {
   margin-top:0;
 }
 .content p {
-  font-size : 60%;
+  font-size : 70%;
   font-family: yu-gothic, sofia-pro, sans-serif;
 }
 .content h2 {
@@ -62,10 +62,14 @@ html,body {
 .second-text-block h2{
   font-weight: bold;
   position: relative;
+  font-family:sofia-pro;
+  font-size:100%;
   padding: 4.6% 8.6% 2.6% 8.6%;
 }
 .second-text-block p{
   position: relative;
+  font-size:70%;
+  font-family:yu-gothic, sofia-pro, sans-serif;
   padding:0% 8.6% 8.6% 8.6%;
 }
 
