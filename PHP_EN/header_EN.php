@@ -63,7 +63,7 @@
           <?php if(isset($_SESSION['auth'])):?>
             <li><a href="Logout_EN.php"><p> Logout</p></a></li>
           <?php else:?>
-            <li><a href="Login_Menu_EN.php"> <p>Login</p></a></li>
+            <li><a href="Login_EN.php"> <p>Login</p></a></li>
           <?php endif ?>
 
           <!-- Check if this still work when it will be online -->
