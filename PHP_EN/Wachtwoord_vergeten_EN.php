@@ -12,6 +12,9 @@
 
   <!-- CSS link -->
 	<link rel="stylesheet" href="../css/Login.css">
+
+    <!-- Icon image -->
+  <link rel="icon" href="../images/LogoHyp.svg">
 	
 </head>	
 
@@ -27,7 +30,7 @@
             <label for="email"><b>E-mail</b></label><br>
             <input type="email" placeholder="E-mail placeholder" name="email" required><br>
             <button type="submit" name='validate'>Verstuur</button>
-            <?php if(isset($error)){echo '<a><p style="color:red; font-size:120%;"> <br> '.$error.'</p></a>';}?>
+            <?php if(isset($error)){echo '<a><p style="color:red; font-size:90%;"> <br> '.$error.'</p></a>';}?>
         </form>
   </div>
 </div>
