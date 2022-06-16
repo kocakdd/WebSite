@@ -8,11 +8,13 @@
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
 	<META	NAME="keywords"	CONTENT="Rotterdam, Home">	
 	<META	NAME="subject"	CONTENT="Home">	
-    <META  charset="UTF-8">
-    <META name="viewport" content="width=device-width, initial-scale=1">
+  <META  charset="UTF-8">
+  <META name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSS link -->
   <link rel="stylesheet" href="css/Contact.css">
-	
+  
+	<!-- Icon image -->
+  <link rel="icon" href="../images/LogoHyp.svg">
 </head>	
 
 
@@ -45,7 +47,7 @@
     <form action="formulier_verzonden.php" method="post">
 
     <label for="fname"> Voor- & Achternaam </label><br>
-      <input type="text" name="fname" placeholder="Voornaam placeholder" pattern="[a-zA-Z- ]{1,60}" autofocus required><br>
+      <input type="text" name="fname" placeholder="Voornaam placeholder" pattern="[a-zA-Z- ]{1,60}" required><br>
 
       <label for="email"> E-mailadres </label><br>
       <input type="email" name="email" placeholder="E-mail placeholder" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required><br>

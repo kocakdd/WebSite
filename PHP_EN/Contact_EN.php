@@ -47,7 +47,7 @@
     <form action="formulier_verzonden.php" method="post">
 
     <label for="fname"> First- & Last Name </label><br>
-      <input type="text" name="fname" placeholder="Name placeholder" pattern="[a-zA-Z- ]{1,60}" autofocus required><br>
+      <input type="text" name="fname" placeholder="Name placeholder" pattern="[a-zA-Z- ]{1,60}" required><br>
 
       <label for="email"> E-mail </label><br>
       <input type="email" name="email" placeholder="E-mail placeholder" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required><br>

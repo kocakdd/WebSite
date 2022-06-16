@@ -1,0 +1,109 @@
+html,body {
+  height:100%;
+  width:100;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  margin-top:0;
+  min-height: 84%;
+}
+.content p {
+  font-size : 70%;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+}
+.content h2 {
+  font-size : 100%;
+  font-family: sofia-pro, yu-gothic,  sans-serif;
+}
+.content h3 {
+  font-size : 80%;
+  font-family: sofia-pro, yu-gothic,  sans-serif;
+}
+ 
+ 
+
+
+/**************/
+/* Login form */
+/**************/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=email],input[type=password],input[type=text], select, textarea {
+  position: relative;
+  width: 50%; /* Full width */
+  padding: 1%; /* Some padding */ 
+  border: 0px outset #009353; /* Border */
+  /*box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 1%; /* Add a top margin */
+  margin-bottom: 2.3%; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  -moz-box-shadow:both 3px 3px 8px #009353;
+  -webkit-box-shadow: 3px 3px 8px #009353;
+  box-shadow: 3px 3px 8px #009353;
+  font-size : 80%;
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  position : relative;
+  background-color: white;
+  color: #009353;
+  border : 3px solid #009353;
+  padding: 1% 5%;
+  cursor: pointer;
+  font-size: 100%;
+  margin-top: 5.3%;
+  width : 40%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #009353;
+  color : white;
+}
+
+/* Add a background color and some padding around the form */
+.formulier {
+  background-color: white;
+  padding: 3.6% 8.6% 8.6% 8.6%;
+  position: relative;
+  background-image: url(../images/Cube.svg);
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+  background-size: 50%;
+  top : 55px;
+}
+
+
+.formulier form label{
+  font-size: 100%;
+  position: relative;
+  margin-bottom: 1%;
+  margin-top: 4.3%;
+  font-weight: normal;
+}
+.formulier img{
+    margin-top: 53px;
+    margin-left: 380px;
+    z-index: 1;
+    position: absolute;
+    height: 25px;
+}
+
+.formulier form a{
+
+  padding-left: 20px;
+  position: relative;
+  text-decoration: none;
+  font-size: 70%;
+  color : black;
+}
+
+.formulier  form a:hover{
+  position: relative;
+  text-decoration: none;
+  color : #009353;
+}
+
