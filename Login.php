@@ -15,7 +15,8 @@
   <!-- CSS link -->
 	<link rel="stylesheet" href="css/Login.css">
 
-  
+  <!-- Icon image -->
+  <link rel="icon" href="images/LogoHyp.svg">
 	
 </head>	
 
@@ -41,7 +42,7 @@
 
       <button type="submit"  name='validate'>Log in</button>
       <a href='wachtwoord_vergeten.php'> Wachtwoord vergeten? </a>
-      <?php if(isset($error)){echo '<p style="color:red;font-size:120%;"> <br/><br/>'.$error.'</a>';}?>
+      <?php if(isset($error)){echo '<p style="color:red;font-size:120%;"> <br/>'.$error.'</p>';}?>
     </form>
   </div> 
 </div>

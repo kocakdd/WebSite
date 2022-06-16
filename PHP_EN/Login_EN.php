@@ -15,8 +15,8 @@
   <!-- CSS link -->
 	<link rel="stylesheet" href="../css/Login.css">
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Icon image -->
+  <link rel="icon" href="../images/LogoHyp.svg">
 	
 </head>	
 
@@ -26,9 +26,9 @@
 
   <?php include_once('header_EN.php'); ?>
 
-<div class="content">
-  <!--Login Formulier -->
 
+  <!--Login Formulier -->
+<div class="content">
   <div class="formulier">
     <h2 > Login </h2>
     <form class=container method="post">
@@ -36,13 +36,13 @@
       <label for="email"> Email </label><br>
       <input type="email" name="email" placeholder="Email placeholder" required><br>
 
-      <label for="password"> Password <img src="../images/eye_hide.png" id="eye" onClick="change()"/></label><br>
+      <label for="password"> Password <!--img src="../images/eye_hide.png" id="eye" onClick="change()"/--></label><br>
       <input type="password" id="password" name="password" placeholder="Password placeholder"  required><br>
       
 
       <button type="submit"  name='validate'>Log in</button>
-      <a href='wachtwoord_vergeten_EN.php'> Forgot your password? <br/></a>
-      <?php if(isset($error)){echo '<p style="color:red;font-size:200%;"> <br/><br/>'.$error.'</a>';}?>
+      <a href='wachtwoord_vergeten_EN.php'> Forgot your password? </a>
+      <?php if(isset($error)){echo '<p style="color:red;font-size:200%;"> <br/>'.$error.'</p>';}?>
     </form>
   </div> 
 </div>

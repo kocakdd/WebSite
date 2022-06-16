@@ -1,5 +1,5 @@
 <?php 
-require("db_client.php");
+require("../Action/db_client.php");
 
 
 //check the button 
@@ -38,7 +38,7 @@ if(isset($_POST['validate'])){
                 $_SESSION['hypotheek']=$usersInfos['Hypotheek'];
                 
                 //redirect user to the home page
-                header('Location: Home.php');
+                header('Location: Home+login_EN.php');
             }
             else{
                 $error="Wrong password";

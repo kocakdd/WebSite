@@ -7,6 +7,7 @@ html,body {
 
 .content{
   margin-top:0;
+  min-height: 84%;
 }
 .content p {
   font-size : 70%;
@@ -53,7 +54,7 @@ button[type=submit] {
   padding: 1% 5%;
   cursor: pointer;
   font-size: 100%;
-  margin-top: 2.3%;
+  margin-top: 5.3%;
   width : 40%;
 }
 
@@ -72,6 +73,7 @@ button[type=submit]:hover {
   background-repeat: no-repeat;
   background-position: 110% 110%;
   background-size: 50%;
+  top : 55px;
 }
 
 
@@ -79,7 +81,7 @@ button[type=submit]:hover {
   font-size: 100%;
   position: relative;
   margin-bottom: 1%;
-  margin-top: 2.3%;
+  margin-top: 4.3%;
   font-weight: normal;
 }
 .formulier img{
@@ -105,14 +107,3 @@ button[type=submit]:hover {
   color : #009353;
 }
 
-@media screen and (max-width : 750px){
-  .content{
-    height: 71%;
-  }
-}
-
-@media screen and (max-width : 650px){
-  .content{
-    height: 80%;
-  }
-}
