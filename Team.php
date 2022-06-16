@@ -54,27 +54,27 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
   
   <div class="boxes">
   <div class="boxe">
-    <img src="images/Honesty.png" alt="honesty">
+    <img class="logo" src="images/Honesty.svg" alt="honesty">
     <h2> Honesty </h2>
   </div>
 
   <div class="boxe">
-    <img src="images/data.png" alt="data">
+    <img class="logo" src="images/Graph.svg" alt="data">
     <h2> Data Driven </h2>
   </div>
 
     <div class="boxe">
-    <img src="images/frontier.png" alt="frontier">
+    <img class="logo" src="images/frontier.svg" alt="frontier">
     <h2> Frontier </h2>
   </div>
 
   <div class="boxe">
-    <img src="images/secured.png" alt="secured">
+    <img class="logo" src="images/secured.svg" alt="secured">
     <h2> Secured </h2>
   </div>
 
   <div class="boxe">
-    <img src="images/digital.png" alt="digital">
+    <img class="logo" src="images/digital.svg" alt="digital">
     <h2> Digital</h2>
   </div>
 </div>
