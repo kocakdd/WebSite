@@ -13,15 +13,15 @@
   margin-top:0;
 }
 .content p {
-  font-size : 60%;
+  font-size : 90%;
   font-family: yu-gothic, sofia-pro, sans-serif;
 }
 .content h2 {
-  font-size : 100%;
+  font-size : 120%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
 .content h3 {
-  font-size : 80%;
+  font-size : 100%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
  
@@ -88,12 +88,12 @@
   font-weight: bold;
   position: relative;
   font-family:sofia-pro;
-  font-size:100%;
+  font-size:120%;
   padding: 1.6% 8.6% ;
 }
 .third-text-block p{
   position: relative;
-  font-size:70%;
+  font-size:90%;
   font-family:yu-gothic, sofia-pro, sans-serif;
   padding:0% 8.6% 8.6% 8.6%;
 }
@@ -147,7 +147,7 @@
   font-weight: bold;
   position: relative;
   font-family:sofia-pro;
-  font-size:100%;
+  font-size:120%;
   padding: 1.6% 8.6% ;
 }
 .Management-text-block p{
@@ -213,7 +213,7 @@
   font-weight: bold;
   position: relative;
   font-family:sofia-pro;
-  font-size:100%;
+  font-size:120%;
   padding: 1.6% 8.6% ;
 }
 .Team-text-block p{
