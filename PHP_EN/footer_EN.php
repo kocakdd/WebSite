@@ -14,7 +14,7 @@
                     <div class="col-sm  item second">
                         <a href="https://goo.gl/maps/edtYsPAJFtuqn7VN6"><h3>Locatie</h3></a>
                         <ul>
-                            <li><a href="https://goo.gl/maps/edtYsPAJFtuqn7VN6"><img src="../images/location.png" class="logo"/><p class="text">Fascinato Boulevard 562<br/>Capelle aan den ijsel 2909 VA</p></a></li>
+                            <li><a href="https://goo.gl/maps/edtYsPAJFtuqn7VN6">Fascinato Boulevard 562<br/>Capelle aan den ijsel 2909 VA</p></a></li>
                         </ul>
                     </div>
                     <div class="col-sm  item third">
