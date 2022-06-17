@@ -112,6 +112,7 @@
   position: relative;
   background-color : white;
   text-align: center;
+  align-items: center;
   -moz-box-shadow: 4px 4px 3px #009353;
   -webkit-box-shadow: 4px 4x 3px #009353;
   box-shadow: 4px 4px 3px #009353;
