@@ -7,15 +7,15 @@
     
   }
   
-
+.footer .item{
+  text-align: center;
+}
 
   .footer .item.first{
-    margin-left:25%;
     margin-right: 5%;
   }
 
   .footer .item.third{
-    margin-right:20%;
     margin-left: 5%;
 }
 
@@ -23,8 +23,9 @@
   .footer ul {
     padding:0;
     list-style:none;
-    line-height:6%;
-    font-size:55%;
+    line-height:120%;
+    
+    font-size:85%;
     font-family: yu-gothic;
     margin-bottom:10%;
   }
@@ -54,8 +55,8 @@
   }
 
   .footer .logo{
-    height:15%;
-    width:15%;
+    height:8%;
+    width:8%;
   }
   
 /*terms and conditions */
@@ -82,15 +83,11 @@
   
 
 /* little pages*/
-  @media only screen and (max-width:870px) {
-    .footer .text,.logo{
+  @media only screen and (max-width:800px) {
+    .footer .text, .logo{
         display:none;
     }
-  }
-/*really little pages*/
-  @media only screen and (max-width:650px) {
-    .footer .one{
-      display:none;
+    .footer h3 {
+      font-size:90%;
     }
-
   }
