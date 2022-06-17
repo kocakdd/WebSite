@@ -6,10 +6,7 @@ html,body {
   padding: 0;
 }
 
-body{
-  display : grid;
-  grid-template-rows: auto 1fr auto;
-}
+
 .content{
   margin-top:0;
 }
@@ -220,6 +217,7 @@ body{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  margin-bottom: 5rem;
 }
 
 .triangle-image{
@@ -251,11 +249,11 @@ body{
 
 .final_block{
   position:relative;
-  margin-top:20%;
+  top:250px;
   height:auto;
   width: 100%;
   padding : 0% 8.6%;
-  margin-bottom:5%;
+  margin-bottom:300px;
 }
 
 .final_block h2{
@@ -279,7 +277,7 @@ body{
 
 
 
-@media screen and (max-width: 706px) {
+@media screen and (max-width: 806px) {
   .first-text-block{
     width : 60%;
   }
