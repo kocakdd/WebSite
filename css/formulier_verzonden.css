@@ -1,0 +1,100 @@
+/* Couleur vert HEX: #009353, vert foncé HEX: #006D3E, blue HEX: #4AE6FF, black HEX: #202020, grenn light HEX: #F8FFF9 and white
+Police Sofia Pro & Yu Gothic */
+
+/* Mobile device */
+
+html {
+    height:100%;
+ }
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ 
+ body{
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+   margin:0;
+   padding:0;
+   background-image: url("../images/Cube.svg");
+   background-size: 30%;
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-position:115% 55% ;
+ }
+ 
+ 
+ /* My text*/
+ .block_text{
+  height: 450px;
+  position: relative;
+  margin-top:90px;
+ }
+ .title1{
+   position: relative;
+   font-size :160%;
+   font-weight: bold;
+   font-family: sofia-pro, sans-serif;
+   margin-left : 10.3%;
+   margin-right : 10.3%;
+ }
+ .title2{
+   position: relative;
+   font-size : 100%;
+   font-weight: bold;
+   font-family: sofia-pro, sans-serif;
+   margin-left : 10.3%;
+   margin-right : 10.3%;
+   color: #009353;
+   line-height: 100%;
+   top:10px;
+ }
+ 
+ 
+ /* Button */
+ 
+ .button {
+   position: relative;
+   top : 50px;
+   margin-left : 10%;
+   align-items: center;
+   background-color: #fff;
+   border: 2px solid #009353;
+   color: #009353;
+   cursor: pointer;
+   display: inline-flex;
+   fill: #009353;
+  text-decoration: none;
+   font-size: 120%;
+   height: 50px;
+   justify-content: center;
+ 
+   padding: 0 8%;
+   text-align: center;
+  
+   transition: all .3s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+ }
+ 
+ .button:focus {
+   color: #006D3E;
+ }
+ 
+ .button:hover {
+   border-color: #006D3E;
+   color:#006D3E;
+   fill: #006D3E;
+ }
+ 
+ .button:active {
+   border-color: #006D3E;
+   color: #006D3E;
+   fill: #006D3E;
+ }
+ 
+
+ 
+ 

@@ -44,7 +44,7 @@
   <div class="formulier">
     <h2 > Contact Form </h2>
 
-    <form action="formulier_verzonden.php" method="post">
+    <form action="formulier_verzonden_EN.php" method="post">
 
     <label for="fname"> First- & Last Name </label><br>
       <input type="text" name="fname" placeholder="Name placeholder" pattern="[a-zA-Z- ]{1,60}" required><br>
