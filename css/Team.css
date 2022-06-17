@@ -116,10 +116,11 @@ body{
   position: relative;
   background-color : white;
   text-align: center;
+
   -moz-box-shadow: 4px 4px 3px #009353;
   -webkit-box-shadow: 4px 4x 3px #009353;
   box-shadow: 4px 4px 3px #009353;
-  padding:3%;
+  padding:1%;
   -moz-border-radius:20px;
   -webkit-border-radius:20px;
   border-radius:20px;
