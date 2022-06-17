@@ -10,15 +10,15 @@ html,body {
   min-height: 84%;
 }
 .content p {
-  font-size : 70%;
+  font-size : 90%;
   font-family: yu-gothic, sofia-pro, sans-serif;
 }
 .content h2 {
-  font-size : 100%;
+  font-size : 120%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
 .content h3 {
-  font-size : 80%;
+  font-size : 100%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
  

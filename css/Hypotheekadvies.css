@@ -14,15 +14,15 @@ body{
   height:auto;
 }
 .content p {
-  font-size : 60%;
+  font-size : 90%;
   font-family: yu-gothic, sofia-pro, sans-serif;
 }
 .content h2 {
-  font-size : 100%;
+  font-size : 120%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
 .content h3 {
-  font-size : 80%;
+  font-size : 100%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
 
@@ -54,7 +54,7 @@ body{
   top : -130px;
   color : white;
   font-family: sofia-pro, sans-serif;
-  font-size : 220%;
+  font-size : 260%;
   margin-left:25%;
 }
 
@@ -63,7 +63,7 @@ body{
   top : -70px;
   color : white;
   font-family: yu-gothic, sofia-pro, sans-serif;
-  font-size : 140%;
+  font-size : 200%;
   margin-left:15%;
 }
 

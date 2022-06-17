@@ -12,15 +12,15 @@ body{
   margin-top:0;
 }
 .content p {
-  font-size : 70%;
+  font-size : 90%;
   font-family: yu-gothic, sofia-pro, sans-serif;
 }
 .content h2 {
-  font-size : 100%;
+  font-size : 120%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
 .content h3 {
-  font-size : 80%;
+  font-size : 100%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
 }
  
@@ -44,7 +44,7 @@ input[type=email],input[type=password],input[type=text], select, textarea {
   -moz-box-shadow:both 3px 3px 8px #009353;
   -webkit-box-shadow: 3px 3px 8px #009353;
   box-shadow: 3px 3px 8px #009353;
-  font-size : 80%;
+  font-size : 100%;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -95,7 +95,7 @@ button[type=submit]:hover {
   padding-left: 20px;
   position: relative;
   text-decoration: none;
-  font-size: 70%;
+  font-size: 90%;
   color : black;
 }
 
