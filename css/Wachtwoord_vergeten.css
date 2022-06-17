@@ -5,9 +5,13 @@ html,body {
   padding: 0;
 }
 
+body{
+  display : grid;
+  grid-template-rows: auto 1fr auto;
+}
 .content{
   margin-top:0;
-  min-height: 84%;
+  min-height: 500px;
 }
 .content p {
   font-size : 90%;

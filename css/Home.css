@@ -203,7 +203,7 @@ html,body {
 
 .frame-content h2{
   margin-left: 8.6%;
-  margin-top: 9%;
+  margin-top: 5%;
   height : auto;
   white-space: nowrap;
 
@@ -217,6 +217,7 @@ html,body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  margin-bottom: 5rem;
 }
 
 .triangle-image{
@@ -248,11 +249,11 @@ html,body {
 
 .final_block{
   position:relative;
-  margin-top:180px;
+  top:250px;
   height:auto;
   width: 100%;
   padding : 0% 8.6%;
-  margin-bottom:50px;
+  margin-bottom:300px;
 }
 
 .final_block h2{
@@ -276,7 +277,7 @@ html,body {
 
 
 
-@media screen and (max-width: 706px) {
+@media screen and (max-width: 806px) {
   .first-text-block{
     width : 60%;
   }
