@@ -45,6 +45,8 @@
       <?php if(isset($error)){echo '<p style="color:red;font-size:120%;"> <br/>'.$error.'</p>';}?>
     </form>
   </div> 
+  <!-- <div class="image_cube">
+  </div> -->
 </div>
 <script>
   e=true;
