@@ -59,7 +59,7 @@
       <textarea rows="3" name="text" placeholder="Textarea placeholder" required></textarea><br>
 
       <label for="time"> Selecteer een dag en tijdvak</label> <br>
-      <input type="date" id="datefield" name="date"  placeholder="Date" min="<?= date('Y-m-d'); ?>" required><br>
+      <input type="date" id="datefield" name="date"  placeholder="Date" min="<?= date('Y-m-d',strtotime("+1 day")); ?>" required><br>
 
       <select id="time" name="time" class="time"  required>
         <optgroup class="opt" >
