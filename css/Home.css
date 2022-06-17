@@ -206,7 +206,7 @@ body{
 
 .frame-content h2{
   margin-left: 8.6%;
-  margin-top: 9%;
+  margin-top: 5%;
   height : auto;
   white-space: nowrap;
 
@@ -251,11 +251,11 @@ body{
 
 .final_block{
   position:relative;
-  margin-top:180px;
+  margin-top:20%;
   height:auto;
   width: 100%;
   padding : 0% 8.6%;
-  margin-bottom:50px;
+  margin-bottom:5%;
 }
 
 .final_block h2{
