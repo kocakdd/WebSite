@@ -10,7 +10,7 @@ body{
 }
 .content{
   margin-top:0;
-
+  min-height: 600px;
 }
 .content p {
   font-size : 90%;
