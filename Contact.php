@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/Contact.css">
   
 	<!-- Icon image -->
-  <link rel="icon" href="../images/LogoHyp.svg">
+  <link rel="icon" href="images/LogoHyp.svg">
 </head>	
 
 

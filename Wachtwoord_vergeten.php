@@ -13,7 +13,7 @@
   <!-- CSS link -->
 	<link rel="stylesheet" href="css/Login.css">
     <!-- Icon image -->
-  <link rel="icon" href="../images/LogoHyp.svg">
+  <link rel="icon" href="images/LogoHyp.svg">
   
 	
 </head>	

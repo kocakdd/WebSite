@@ -3,7 +3,7 @@
 
 <head>	
 	<title> Hypotheekvitaal - Formulier </title>	
-	<META	NAME="author"	CONTENT="Kocak Derya">	
+	<META	NAME="author"	CONTENT="NAPIERALA  Lisa">	
 	<META	NAME="description"	CONTENT="Hypotheek">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
 	<META	NAME="keywords"	CONTENT="Rotterdam, Hypotheek">	
@@ -12,7 +12,8 @@
   <!-- CSS link -->
 	<link rel="stylesheet" href="../css/formulier_verzonden.css">
 
-  
+  <!-- Icon image -->
+  <link rel="icon" href="../images/LogoHyp.svg">
 	
 </head>	
 
