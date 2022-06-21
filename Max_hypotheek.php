@@ -29,7 +29,7 @@
 
   <div class="formulier">
     <h2 > Bereken uw maximale Hypotheek </h2>
-    <form onsubmit="return validation();" method="post" action="max_hypotheek_2.php">
+    <form onsubmit="return validation();" method="post" action="Max_hypotheek_results.php">
       <label for="salary"> Bruto Jaarinkomen </label><br>
       <input type="number" id="frame" name="salary" min="10000" autofocus required>
 
