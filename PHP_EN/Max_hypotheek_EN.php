@@ -2,7 +2,7 @@
 <html lang="NL">
 
 <head>	
-	<title> Hypotheekvitaal - Max Hypotheek </title>	
+	<title> Hypotheekvitaal - Max Mortgage </title>	
 	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
 	<META	NAME="description"	CONTENT="Max Hypotheek">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
@@ -10,10 +10,10 @@
 	<META	NAME="subject"	CONTENT="Max Hypotheek">	
 
   <!-- CSS link -->
-	<link rel="stylesheet" href="css/Max_hypotheek.css">
+	<link rel="stylesheet" href="../css/Max_hypotheek.css">
 
 <!-- Icon image -->
-  <link rel="icon" href="images/LogoHyp.svg">
+  <link rel="icon" href="../images/LogoHyp.svg">
 
 
 </head>	
@@ -21,31 +21,31 @@
 <body>
     
   <!-- Header -->
-  <?php include_once('Action/header.php'); ?>
+  <?php include_once('header_EN.php'); ?>
 
   <!-- Content --> 
 <div class="content">
   <!--Contact Formulier -->
 
   <div class="formulier">
-    <h2 > Bereken uw maximale Hypotheek </h2>
+    <h2 > Calculate your Max Mortgage </h2>
     <form onsubmit="return validation();" method="post" action="max_hypotheek_2.php">
-      <label for="salary"> Bruto Jaarinkomen </label><br>
+      <label for="salary"> Brut Income </label><br>
       <input type="number" id="frame" name="salary" min="10000" autofocus required>
 
       <div class="choice">
         <input type="radio" id ="annuitei" name="choice" value="Annuiteitenlening" onclick="show();"/>
-        <label for="annuitei">Annuiteitenlening</label>
+        <label for="annuitei">Annuity</label>
 
         <input type="radio" id="linear" name="choice" value="Lineaire lening" onclick="show();"/>
         <label for="linear">Lineaire lening</label>
 
         <input class="combinate" type="radio" id="combinate" name="choice" value="Combinatielening" onclick="show();"/>
-        <label for="combinate">Combinatielening</label>
+        <label for="combinate">Combination</label>
       </div>
 
       <div class="range-container" id="range-container" style="display:none">
-        <h3> Annuitei % </h3>
+        <h3> Annuity % </h3>
         <input type="range" name="annuitei" id="range" max="100" min="0" step="5">
         <label for="range">50%</label>
         
@@ -135,14 +135,14 @@
         <div id="boxTxt"></div>
         <input type="button" value="OK" onclick="dbox()"/>
       </div></div>
-    <input type="submit" value="Bereken">
+    <input type="submit" value="Calculate">
     </form>
   </div>
 
 </div>
 
    <!--Footer-->   
-  <?php include('Action/footer.php'); ?>
+  <?php include('footer_EN.php'); ?>
 
 </body>
 </html>

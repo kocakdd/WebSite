@@ -47,7 +47,7 @@
         <ul class="link_menu">
 
           <li><a href="Home_EN.php"><p>Home</p></a></li>
-          <!--
+          
           <li> <a href="#"> <p>Services</p> </a>
             <ul>
               <li><a href="Hypotheekadvies_EN.php"><p>Mortgage Advices</p></a></li>
@@ -55,7 +55,7 @@
               <li><a href="Hypotheekadvies_EN.php"><p>Morgage Ready</p></a></li>
             </ul>
           </li>
-          -->
+          
           
           <li><a href="Team_EN.php"><p>Team</p></a></li>
           <li><a href="Contact_EN.php"><p>Contact</p></a></li>
