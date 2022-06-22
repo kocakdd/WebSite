@@ -13,7 +13,9 @@
   <!-- CSS link -->
 	<link rel="stylesheet" href="css/max_hypotheek_2.css">
 
-	
+	<!-- Icon image -->
+  <link rel="icon" href="images/LogoHyp.svg">
+  
 </head>	
 
 <body>
