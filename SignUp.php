@@ -30,7 +30,7 @@
       <input type="email" name="email" placeholder="Email placeholder" required><br>
 
       <label for="password"> Password <!-- <img src="images/eye_hide.png" id="eye" onClick="changepass()"/> --></label><br>
-      <input type="text" id="password" name="password" placeholder="Password placeholder" title='Minstens 8 tekens inclusief een getal, een hoofdletter, een kleine letter en een symbool (!@#$%^&*=+-_)' pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$' required />
+      <input type="password" id="password" name="password" placeholder="Password placeholder" title='Minstens 8 tekens inclusief een getal, een hoofdletter, een kleine letter en een symbool (!@#$%^&*=+-_)' pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$' required />
 
       
       <!--!
