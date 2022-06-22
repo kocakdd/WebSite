@@ -61,9 +61,9 @@
           <li><a href="Contact_EN.php"><p>Contact</p></a></li>
       
           <?php if(isset($_SESSION['auth'])):?>
-            <li><a href="Account_EN.php"><p> Account</p></a></li>
+            <li class="client"><a href="Account_EN.php"><p> Account</p></a></li>
           <?php else:?>
-            <li><a href="Login_EN.php"> <p>Login</p></a></li>
+            <li class="client"><a href="Login_EN.php"> <p>Login</p></a></li>
           <?php endif ?>
 
           <!-- Check if this still work when it will be online -->

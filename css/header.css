@@ -100,7 +100,11 @@
   font-size: 1.2em;
 }
 
-
+.client a p{
+  color:  white;
+  background-color: #009353;
+  padding : 5px;
+}
 
 @media screen and (max-width: 870px) {
   .logo_menu .text_logo{
