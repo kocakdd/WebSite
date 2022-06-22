@@ -27,8 +27,8 @@ html,body {
 .results {
   width: 50%;
   position: relative;
-  height: 700px;
-  top : 200px;
+  height: 50%;
+  margin-top: 8%;
   font-family :  sofia-pro, sans-serif;
   background-color: #F8FFF9;
   text-align : center;
