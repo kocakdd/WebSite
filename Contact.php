@@ -1,3 +1,4 @@
+<?php include_once('Action/db_contact.php'); ?>
 <!DOCTYPE html>
 <html lang="NL">
 
@@ -44,7 +45,7 @@
   <div class="formulier">
     <h2 > ContactFormulier </h2>
 
-    <form action="formulier_verzonden.php" method="post">
+    <form method="post">
 
     <label for="fname"> Voor- & Achternaam </label><br>
       <input type="text" name="fname" placeholder="Voornaam placeholder" pattern="[a-zA-Z- ]{1,60}" required><br>
@@ -71,7 +72,7 @@
         </optgroup>
     </select> <br>
 
-      <input type="submit" value="Verstuur Formulier"> <!-- Lien vers Formulier_verdonzen-->
+      <input type="submit" name="validate" value="Verstuur Formulier"> 
     </form>
   </div>
   

@@ -13,31 +13,30 @@
             die('Error : '.$e->getMessage());
     }
 
-    // If everything if alright, we continue
-    // Writing the resquest
-    // Here we want to put the data of the formulier in our table named contact_form
-    $sqlQuery = 'INSERT INTO contact_form(fname, email, num,reason,Day ,Time) VALUES (:fname, :email, :num,:reason, :date, :time)';
-    // Preparation
-    $insertContact = $mydb->prepare($sqlQuery);
-
-    // For the transition between the english page and the original one
-    if(isSet($_POST["fname"] )) $_SESSION['fname'] = $_POST['fname'];
-    if(isSet($_POST["email"] )) $_SESSION['email'] = $_POST['email'];
-    if(isSet($_POST["tel"] )) $_SESSION['tel'] = $_POST['tel'];
-    if(isSet($_POST["text"] )) $_SESSION['text'] = $_POST['text'];
-    if(isSet($_POST["date"] )) $_SESSION['date'] = $_POST["date"];
-    if(isSet($_POST["time"] )) $_SESSION['time'] = $_POST['time'];
-
-    // Execution - Data our now in my database
-    $insertContact->execute([
-        'fname' => htmlspecialchars($_SESSION['fname']),
-        'email' => htmlspecialchars($_SESSION['email']),
-        'num' => htmlspecialchars($_SESSION['tel']),
-        'reason' => htmlspecialchars($_SESSION['text']),
-        'date'=>htmlspecialchars($_SESSION['date']), 
-        'time' => htmlspecialchars($_SESSION['time'])
-    ]);
-
-
+    if(isset($_POST['validate'])){ 
+        if(!empty($_POST['email']) AND !empty($_POST['fname']) AND !empty($_POST['tel']) AND !empty($_POST['text']) AND !empty($_POST['time']) AND !empty($_POST['date'])){
+   
+       // Writing the resquest
+       // Here we want to put the data of the form in our table named contact_form
+   
+       $sqlQuery = 'INSERT INTO contact_form(fname, email, num,reason,Day ,Time) VALUES (:fname, :email, :num,:reason, :date, :time)';
+       // Preparation
+       $insertContact = $mydb->prepare($sqlQuery);
+   
+       // Execution - Data our now in my database
+       $insertContact->execute([
+           'fname' => htmlspecialchars($_POST['fname']),
+           'email' => htmlspecialchars($_POST['email']),
+           'num' => htmlspecialchars($_POST['tel']),
+           'reason' => htmlspecialchars($_POST['text']),
+           'date'=>htmlspecialchars($_POST['date']), 
+           'time' => htmlspecialchars($_POST['time'])
+       ]);
+       
+       $_SESSION['fname'] = $_POST['fname'];
+       Header('Location:formulier_verzonden.php');
+   
+   }}
+   
 // No closing because only php code
 // Avoid to have error in the html code

@@ -19,11 +19,9 @@
 
 <body>
 
-    <!-- Header -->
+  <!-- Header -->
   <?php require('Action/header.php'); ?>
 
-  <!-- PHP - Link with the DataBase-->
-  <?php require('Action/db_contact.php'); ?>
 
 
   <!-- Body -->
@@ -31,14 +29,13 @@
   <div class="content">
   <!-- htmlspecialchars allow to have the character < and no execution of html code -->
   <div class ="block_text">
-  <p class="title1"> <?= htmlspecialchars($_SESSION['fname']) ?> uw formulier is verzonden</p>
+  <p class="title1"> uw formulier is verzonden</p>
   <p class="title2"> Wij nemen zo snel mogelijk contact met u op ! </p>
   <!-- Button -->
-  <a href="Home.php"><button class="button"  role="button" >Terug naar Home</button></a>
+  <button onclick="window.location.href='Home.php';" class="button"  role="button" >Terug naar Home</button>
   
   </div>
   </div>
-
    <!--Footer-->
   <?php include('Action/footer.php'); ?>
 </div>

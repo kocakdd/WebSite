@@ -63,7 +63,7 @@
       <label for="hypotheek"> Hypotheek  </label>
       <input type="text" name="hypotheek" placeholder="(geen/ lopende/ afgestolen)" >
       -->
-      <button type="submit"  name='validate'>Suscribe</button>
+      <button type="submit"  name='validate' >Suscribe</button>
       <?php if(isset($error)){echo '<p style="color:red;font-size:200%;"> <br/><br/>   '.$error.'</a>';}?>
     </form>
   </div> 

@@ -13,6 +13,8 @@
             $user_voornaam= htmlspecialchars($_POST['fname']);
             $user_achternaam= htmlspecialchars($_POST['lname']);
             $user_tel= htmlspecialchars($_POST['telefonnummer']);
+            
+
             // $user_adress= htmlspecialchars($_POST['adres']);
             // $user_woonplaats= htmlspecialchars($_POST['woonplaats']);
             // $user_postcode= htmlspecialchars($_POST['postcode']);
@@ -29,8 +31,9 @@
             $checkIfUserAlreadyExists->execute(array($user_email));
             //be sure not already exists
             if($checkIfUserAlreadyExists->rowCount()==0){ 
-                $insertUserOnWebsite=$bdd->prepare("INSERT INTO users(email, password, Voornaam, Achternaam, Adres, Woonplaats, Postcode, Leeftijd, Loon, Telefonnummer, Partner_Voornaam, Partner_Achternaam, Status, Hypotheek) VALUES(?, ?, ?, ?, ?, ?,?,?,?,?,?,?,?,?)");
-                $insertUserOnWebsite->execute(array($user_email, $user_password, $user_voornaam, $user_achternaam, "$user_adress", "$user_woonplaats","$user_postcode", "$user_leeftijd","$user_loon",$user_tel,"$user_pfname","$user_plname","$user_status","$user_hypotheek"));
+                echo('oui');
+                $insertUserOnWebsite=$bdd->prepare("INSERT INTO users(email, password, Voornaam, Achternaam, Telefonnummer) VALUES(?, ?, ?, ?, ?)");
+                $insertUserOnWebsite->execute(array($user_email, $user_password, $user_voornaam, $user_achternaam, $user_tel));
 
                 //get user's data 
                 $getInfosOfThisUserReq=$bdd->prepare("SELECT * FROM users WHERE email =? ");
@@ -45,15 +48,15 @@
                 $_SESSION['voornaam']=$usersInfos['Voornaam'];
                 $_SESSION['achternaam']=$usersInfos['Achternaam'];
                 // $_SESSION['adres']=$usersInfos['Adres'];
-                // $_SESSION['woonplaats']=$usersInfos['Woonplaats'];
-                // $_SESSION['postcode']=$usersInfos['Postcode'];
-                // $_SESSION['leeftijd']=$usersInfos['Leeftijd'];
-                // $_SESSION['loon']=$usersInfos['Loon'];
-                $_SESSION['telefonnummer']=$usersInfos['Telefonnummer'];
-                // $_SESSION['pvoornaam']=$usersInfos['Partner_Voornaam'];
-                // $_SESSION['pachternaam']=$usersInfos['Partner_Achternaam'];
-                // $_SESSION['status']=$usersInfos['Status'];
-                // $_SESSION['hypotheek']=$usersInfos['Hypotheek'];
+                //$_SESSION['woonplaats']=$usersInfos['Woonplaats'];
+                //$_SESSION['postcode']=$usersInfos['Postcode'];
+                //$_SESSION['leeftijd']=$usersInfos['Leeftijd'];
+                //$_SESSION['loon']=$usersInfos['Loon'];
+                //$_SESSION['telefonnummer']=$usersInfos['Telefonnummer'];
+                //$_SESSION['pvoornaam']=$usersInfos['Partner_Voornaam'];
+                //$_SESSION['pachternaam']=$usersInfos['Partner_Achternaam'];
+                //$_SESSION['status']=$usersInfos['Status'];
+                //$_SESSION['hypotheek']=$usersInfos['Hypotheek'];
                 
                 
                 //redirect user to the home page
