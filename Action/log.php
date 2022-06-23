@@ -38,7 +38,7 @@ if(isset($_POST['validate'])){
                 $_SESSION['hypotheek']=$usersInfos['Hypotheek'];
                 
                 //redirect user to the home page
-                header('Location: Home.php');
+                header('Location: Account.php');
             }
             else{
                 $error="Wrong password";
