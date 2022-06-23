@@ -17,8 +17,9 @@ body{
   font-family: yu-gothic, sofia-pro, sans-serif;
 }
 .content h2 {
-  font-size : 120%;
+  font-size : 160%;
   font-family: sofia-pro, yu-gothic,  sans-serif;
+  font-weight : bold;
 }
 .content h3 {
   font-size : 100%;

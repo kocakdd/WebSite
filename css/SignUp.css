@@ -1,0 +1,87 @@
+
+
+/**************/
+/* Login form */
+/**************/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=email],input[type=password],input[type=text], input[type=number], select, textarea {
+  position: relative;
+  width: 80%; /* Full width */
+  padding: 2%; /* Some padding */ 
+  border: 0px outset #009353; /* Border */
+  /*box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 1%; /* Add a top margin */
+  margin-bottom: 2.3%; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  -moz-box-shadow: 3px 3px 8px #009353;
+  -webkit-box-shadow: 3px 3px 8px #009353;
+  box-shadow: 3px 3px 8px #009353;
+  font-size : 100%;
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  position : relative;
+  background-color: white;
+  color: #009353;
+  border : 3px solid #009353;
+  padding: 2% 5%;
+  cursor: pointer;
+  font-size: 120%;
+  margin-top: 4.3%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #009353;
+  color : white;
+}
+
+/* Add a background color and some padding around the form */
+.formulier2 {
+  background-color: white;
+  padding: 8.6% 8.6% 14% 8.6%;
+  position: relative;
+  height:auto;
+ 
+  font-family : yu-gothic, sofia-pro, sans-serif;
+}
+
+.formulier2 h2{
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 3.4%;
+}
+
+.formulier2 form label{
+  font-size: 120%;
+  position: relative;
+  margin-bottom: 2%;
+  margin-top: 3.3%;
+  font-weight: normal;
+}
+.formulier2 img{
+  margin-top: 100px;
+  margin-left: 480px;
+  z-index:1;
+  position: absolute;
+  height:40px;
+}
+
+.formulier2 form a{
+
+  padding-left: 20px;
+  position: relative;
+  text-decoration: none;
+  font-size: 100%;
+  color : black;
+}
+
+.formulier2  form a:hover{
+  position: relative;
+  text-decoration: none;
+  color : #009353;
+}
+
+

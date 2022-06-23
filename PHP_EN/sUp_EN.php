@@ -1,6 +1,6 @@
 <?php
 
-    require('db_client.php');
+    require('../Action/db_client.php');
     
     //verrifie que l'utilisateur a cliqué sur le bouton validé
     if(isset($_POST['validate'])){ 
@@ -57,7 +57,7 @@
                 
                 
                 //redirect user to the home page
-                header('Location: Home.php');
+                header('Location: Home_EN.php');
 
             }else{
                 $error="The email is already used";

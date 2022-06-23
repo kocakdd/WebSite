@@ -1,13 +1,4 @@
-<?php
-if (
-    (!isset($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
-    || (!isset($_POST['fname']) || empty($_POST['fname']))
-    || (!isset($_POST['tel']) || empty($_POST['tel']))
-    ) 
-{
-    echo('Error - You need a valide email to sent the formulier.');
-    return;
-} ?> <!-- if the form isn't complete or have a wrong email -->
+
 <?php
     try
     {
@@ -29,17 +20,24 @@ if (
     // Preparation
     $insertContact = $mydb->prepare($sqlQuery);
 
+    // For the transition between the english page and the original one
+    if(isSet($_POST["fname"] )) $_SESSION['fname'] = $_POST['fname'];
+    if(isSet($_POST["email"] )) $_SESSION['email'] = $_POST['email'];
+    if(isSet($_POST["tel"] )) $_SESSION['tel'] = $_POST['tel'];
+    if(isSet($_POST["text"] )) $_SESSION['text'] = $_POST['text'];
+    if(isSet($_POST["date"] )) $_SESSION['date'] = $_POST["date"];
+    if(isSet($_POST["time"] )) $_SESSION['time'] = $_POST['time'];
+
     // Execution - Data our now in my database
     $insertContact->execute([
-        'fname' => htmlspecialchars($_POST['fname']),
-        'email' => htmlspecialchars($_POST['email']),
-        'num' => htmlspecialchars($_POST['tel']),
-        'reason' => htmlspecialchars($_POST['text']),
-        'date'=>htmlspecialchars($_POST['date']), 
-        'time' => htmlspecialchars($_POST['time'])
+        'fname' => htmlspecialchars($_SESSION['fname']),
+        'email' => htmlspecialchars($_SESSION['email']),
+        'num' => htmlspecialchars($_SESSION['tel']),
+        'reason' => htmlspecialchars($_SESSION['text']),
+        'date'=>htmlspecialchars($_SESSION['date']), 
+        'time' => htmlspecialchars($_SESSION['time'])
     ]);
 
-    $_SESSION['fname']=$_POST['fname'];
 
 // No closing because only php code
 // Avoid to have error in the html code
