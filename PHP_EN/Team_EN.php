@@ -20,7 +20,8 @@
 
 
     <!--Header-->    
-<body>  
+<body>
+  <?php $nav_en_cours = 'team'; ?>  
   <?php include_once('header_EN.php'); ?>
 
   <!-- Content -->  

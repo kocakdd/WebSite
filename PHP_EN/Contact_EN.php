@@ -20,6 +20,7 @@
 
     <!--Header-->    
 <body>  
+  <?php $nav_en_cours = 'contact'; ?>
   <?php include_once('header_EN.php'); ?>
 
   <!-- Content -->  

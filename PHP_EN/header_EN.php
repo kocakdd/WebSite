@@ -46,24 +46,26 @@
 
         <ul class="link_menu">
 
-          <li><a href="Home_EN.php"><p>Home</p></a></li>
+          <li><a href="Home_EN.php" <?php if ($nav_en_cours == 'home') {echo ' class="en-cours"';} ?>><p>Home</p></a></li>
           
-          <li> <a href="#"> <p>Services</p> </a>
+          <li><a href="Max_hypotheek_EN.php" <?php if ($nav_en_cours == 'bereken') {echo ' class="en-cours"';} ?>><p>Bereken</p></a></li>
+
+          <li> <a href="#" <?php if ($nav_en_cours == 'diensten') {echo ' class="en-cours"';} ?>> <p>Services</p> </a>
             <ul>
-              <li><a href="Hypotheekadvies_EN.php"><p>Mortgage Advices</p></a></li>
+              <li><a href="Hypotheekadvies_EN.php" ><p>Mortgage Advices</p></a></li>
               <li><a href="Hypotheekadvies_EN.php"><p>2nd Opinion</p></a></li>
               <li><a href="Hypotheekadvies_EN.php"><p>Morgage Ready</p></a></li>
             </ul>
           </li>
           
           
-          <li><a href="Team_EN.php"><p>Team</p></a></li>
+          <li><a href="Team_EN.php" <?php if ($nav_en_cours == 'team') {echo ' class="en-cours"';} ?>><p>Team</p></a></li>
           <li><a href="Contact_EN.php"><p>Contact</p></a></li>
       
           <?php if(isset($_SESSION['auth'])):?>
-            <li class="client"><a href="Account_EN.php"><p> Account</p></a></li>
+            <li class="client"><a href="Account_EN.php" <?php if ($nav_en_cours == 'account') {echo ' class="en-cours"';} ?>><p> Account</p></a></li>
           <?php else:?>
-            <li class="client"><a href="Login_EN.php"> <p>Login</p></a></li>
+            <li class="client"><a href="Login_EN.php" <?php if ($nav_en_cours == 'login') {echo ' class="en-cours"';} ?>> <p>Login</p></a></li>
           <?php endif ?>
 
           <!-- Check if this still work when it will be online -->
