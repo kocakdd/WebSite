@@ -22,6 +22,7 @@
 <body>
     
   <!-- Header -->
+  <?php $nav_en_cours = 'bereken'; ?>
   <?php include_once('header_EN.php'); ?>
 
   <!-- Content --> 

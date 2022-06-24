@@ -24,7 +24,7 @@
 <body>
   
   <!-- Header -->
-
+  <?php $nav_en_cours = 'login'; ?>
   <?php include_once('header_EN.php'); ?>
 
 
@@ -43,7 +43,7 @@
 
       <button type="submit"  name='validate'>Log in</button>
       <a href='wachtwoord_vergeten_EN.php'> Forgot your password? </a>
-      <?php if(isset($error)){echo '<p style="color:red;font-size:200%;"> <br/>'.$error.'</p>';}?>
+      <?php if(isset($error)){echo '<p style="color:red;font-size:120%;"> <br/>'.$error.'</p>';}?>
     </form>
   </div> 
 </div>
