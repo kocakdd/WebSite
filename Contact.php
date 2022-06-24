@@ -21,6 +21,7 @@
 
     <!--Header-->    
 <body>  
+  <?php $nav_en_cours = 'contact'; ?>
   <?php include_once('Action/header.php'); ?>
 
   <!-- Content -->  

@@ -21,6 +21,7 @@
 
     <!--Header-->    
 <body>  
+  <?php $nav_en_cours = 'diensten'; ?>
   <?php include_once('Action/header.php'); ?>
 
   <!-- Content -->  
@@ -85,7 +86,7 @@
     </div>
     <img class="step1-image" src="images/Step3.png" alt="Computer Image">
   </div>
-  </div>
+</div>
 
 
 

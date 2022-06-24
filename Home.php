@@ -24,7 +24,7 @@
 
 <body>
     <!--Header-->    
-  
+  <?php $nav_en_cours = 'home'; ?>
   <?php include_once('Action/header.php'); ?>
 
   <!-- Content -->  
