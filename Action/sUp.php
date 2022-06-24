@@ -31,7 +31,6 @@
             $checkIfUserAlreadyExists->execute(array($user_email));
             //be sure not already exists
             if($checkIfUserAlreadyExists->rowCount()==0){ 
-                echo('oui');
                 $insertUserOnWebsite=$bdd->prepare("INSERT INTO users(email, password, Voornaam, Achternaam, Telefonnummer) VALUES(?, ?, ?, ?, ?)");
                 $insertUserOnWebsite->execute(array($user_email, $user_password, $user_voornaam, $user_achternaam, $user_tel));
 
@@ -60,7 +59,7 @@
                 
                 
                 //redirect user to the home page
-                header('Location: Home.php');
+                header('Location: Account.php');
 
             }else{
                 $error="The email is already used";

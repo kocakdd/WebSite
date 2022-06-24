@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="NL">
 
@@ -19,9 +20,10 @@
 </head>	
 
 <body>
-    <!--Header-->    
-  <?php $nav_en_cours = 'account'; ?>
-  <?php include_once('Action/header.php'); ?>
+    <!--Header-->  
+    <?php include_once('Action/header.php'); ?>  
+    <?php $nav_en_cours = 'account'; ?>
+
 
   <!-- CLient bar -->
 

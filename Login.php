@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php require('Action/log.php');?>
 <!DOCTYPE html>
 <html lang="NL">

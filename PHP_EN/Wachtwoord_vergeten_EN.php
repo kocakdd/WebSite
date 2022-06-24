@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php require('pwd_EN.php'); ?>
 <!DOCTYPE html>
 <html lang="EN">

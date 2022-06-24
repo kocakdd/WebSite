@@ -1,4 +1,4 @@
-<?php session_start();?>
+
 <!-- Header.php -->
 
   <!-- CSS link -->
@@ -59,10 +59,10 @@
           <li><a href="Team.php"><p>Team</p></a></li>
           <li><a href="Contact.php"><p>Contact</p></a></li>
       
-          <?php if(isset($_SESSION['auth'])):?>
-            <li class="client"><a href="Account.php"><p> Account</p></a></li>
-          <?php else:?>
+          <?php if(!isset($_SESSION['connexion'])):?>
             <li class="client"><a href="Login.php"> <p>Login</p></a></li>
+          <?php else:?>
+            <li class="client"><a href="Account.php"><p> Account</p></a></li>
           <?php endif ?>
 
           <!-- Check if this still work when it will be online -->

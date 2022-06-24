@@ -1,3 +1,4 @@
+<?php session_start();?>
 <?php include_once('Action/db_contact.php'); ?>
 <!DOCTYPE html>
 <html lang="NL">

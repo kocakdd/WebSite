@@ -21,7 +21,7 @@ if(isset($_POST['validate'])){
             $usersInfos= $checkIfUserExists->fetch();
             if(password_verify($user_password,$usersInfos['password'])){
                 //log in user
-                $_SESSION['auth']=true;
+                $_SESSION['connexion']=true;
                 $_SESSION['id']=$usersInfos['id'];
                 $_SESSION['email']=$usersInfos['email'];
                 $_SESSION['voornaam']=$usersInfos['Voornaam'];
