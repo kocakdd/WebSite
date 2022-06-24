@@ -31,14 +31,9 @@
   <img class="desk-image" src="../images/Home.png" alt="Font Image">
   
   <div class="first-text-block">
-    <h2 class="title1"> Calculate / About us</h2>
+    <h2 class="title1"> About hypotheekvitaal </h2>
     <h3 class="title2"> Subtitle </h3>
     <p class="text1"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum </p>
-
-    <!-- Button -->
-    <div class="center">
-      <button onClick = "window.location.href='Max_hypotheek_EN.php';" class="button" role="button" style="position: center">Bereken maximale hypotheek</button>
-    </div>
     
   </div>
   <div class="educatie">
@@ -138,18 +133,55 @@
 <!-- Overheidsinstellingen -->
 <div class="final_block">
     <h2> Overheidsinstellingen </h2>
-    <div class="images">
-        <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
-        <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
-        <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
-        <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
-        <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
-        <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+    <div class="slider">
+    <div class="slide-track">
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
     </div>
-</div>
+    </div> 
 
 </div>
-
+</div>
 </body>
    <!--Footer    -->
   
@@ -176,5 +208,11 @@
           prevEl: ".swiper-button-prev",
         },
 
+        autoplay:{
+            delay: 5500,
+        },
+
     });
+
+    
 </script>
