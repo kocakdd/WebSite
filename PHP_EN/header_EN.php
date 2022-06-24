@@ -60,7 +60,7 @@
           
           
           <li><a href="Team_EN.php" <?php if ($nav_en_cours == 'team') {echo ' class="en-cours"';} ?>><p>Team</p></a></li>
-          <li><a href="Contact_EN.php"><p>Contact</p></a></li>
+          <li><a href="Contact_EN.php"<?php if ($nav_en_cours == 'contact') {echo ' class="en-cours"';} ?>><p>Contact</p></a></li>
       
           <?php if(isset($_SESSION['auth'])):?>
             <li class="client"><a href="Account_EN.php" <?php if ($nav_en_cours == 'account') {echo ' class="en-cours"';} ?>><p> Account</p></a></li>
