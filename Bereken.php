@@ -44,7 +44,7 @@
         </div>
       
         <div class="span-right" id="span-right" style="display:none;left:0%;" >
-          <?php include('Persoongegevens.php'); ?>
+          <?php include('Opt_hypotheek.php'); ?>
         </div>
       
       <script type="text/javascript">

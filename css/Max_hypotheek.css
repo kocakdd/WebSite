@@ -1,32 +1,12 @@
 
-html,body {
-  height:100%;
-  width:100;
-  margin: 0;
-  padding: 0;
-}
-body{
-  display : grid;
-  grid-template-rows: auto 1fr auto;
-}
-.content{
-  margin-top:0;
-}
-.content p {
-  font-size : 90%;
-  font-family: yu-gothic, sofia-pro, sans-serif;
-}
-.content h2 {
-  font-size : 120%;
-  font-family: sofia-pro, yu-gothic,  sans-serif;
-}
-.content h3 {
-    font-size: 120%;
-    font-family: sofia-pro, yu-gothic, sans-serif;
-    padding-bottom: 2%;
-    padding-top: 3%;
-}
 
+
+.text-first{
+  position : relative;
+  background-color: #F8FFF9;
+  padding: 3.6% 8.6% 3.6% 8.6%;
+
+}
 
 /****************/
 /* Hypotheek form */
@@ -77,7 +57,7 @@ input[type=submit]:hover {
   min-height: 65%;
   top : 50px;
   font-family : sofia-pro, sans-serif;
-  background-color: #F8FFF9;
+  background-color: white;
 }
 
 .formulier label{
@@ -141,7 +121,7 @@ input[type=range] + label {
   top: -55px;
   text-align: center;
   width: 100px;
-  right : 28%;
+  right : 28.5%;
   color : white;
 }
 
@@ -231,3 +211,5 @@ input[type=range]:active::-webkit-slider-runnable-track {
   right: 10%;
   cursor: pointer;
 }
+
+
