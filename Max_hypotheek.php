@@ -1,31 +1,16 @@
-<?php session_start();?>
-<!DOCTYPE html>
-<html lang="NL">
-
-<head>	
-	<title> Hypotheekvitaal - Max Hypotheek </title>	
-	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
-	<META	NAME="description"	CONTENT="Max Hypotheek">	
-	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
-	<META	NAME="keywords"	CONTENT="Rotterdam, Hypotheekready">	
-	<META	NAME="subject"	CONTENT="Max Hypotheek">	
 
   <!-- CSS link -->
 	<link rel="stylesheet" href="css/Max_hypotheek.css">
 
-<!-- Icon image -->
-  <link rel="icon" href="images/LogoHyp.svg">
-
-
-</head>	
-
-<body>
-    
-  <!-- Header -->
-  <?php include_once('Action/header.php'); ?>
 
   <!-- Content --> 
 <div class="content">
+
+  <div class="text-first">
+    <h2> Maximal Hypotheek</h2>
+    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+</p>
+  </div>
   <!--Contact Formulier -->
 
   <div class="formulier">
