@@ -4,34 +4,23 @@ html,body {
   margin: 0;
   padding: 0;
 }
-
-.content{
-  margin-top:0;
-  min-height: 600px;
-}
-
- 
- body{
-  display:grid;
-  grid-template-rows: auto 1fr auto;
- }
  
  
  /* My text*/
- .block_text{
-  height: 450px;
+ .user_info{
+  height: auto;
   position: relative;
-  margin-top:90px;
  }
- .title1{
+ .label1{
+  margin-top:3%;
    position: relative;
    font-size :160%;
    font-weight: bold;
    font-family: sofia-pro, sans-serif;
-   margin-left : 10.3%;
-   margin-right : 10.3%;
+   margin-left:3%;
+   
  }
- .title2{
+ .label2{
    position: relative;
    font-size : 100%;
    font-weight: bold;
@@ -42,8 +31,35 @@ html,body {
    line-height: 100%;
    top:10px;
  }
- 
- 
+ .info{
+  position: relative;
+  font-size : 90%;
+  height: 50px;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  margin-left : 10.3%;
+  margin-right : 10.3%;
+  line-height: 100%;
+  top:40px;
+ }
+ .link{
+  position: relative;
+  font-size : 170%;
+  height: 50px;
+  color: #009353;
+  font-family: yu-gothic, sofia-pro, sans-serif;
+  margin-left : 10.3%;
+  margin-right : 10.3%;
+  line-height: 100%;
+  top:40px;
+ }
+ ul {
+  padding:0;
+  list-style:none;
+  line-height:120%;
+  
+  margin-bottom:10%;
+}
+
  /* Button */
  
  .button {
