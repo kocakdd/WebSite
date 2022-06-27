@@ -21,8 +21,9 @@
 
 <body>
     <!--Header-->  
-    <?php include_once('Action/header.php'); ?>  
     <?php $nav_en_cours = 'account'; ?>
+    <?php include_once('Action/header.php'); ?>  
+    
 
 
   <!-- CLient bar -->

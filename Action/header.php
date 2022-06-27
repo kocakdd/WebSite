@@ -62,9 +62,9 @@
           <li><a href="Contact.php" <?php if($nav_en_cours == 'contact'){echo 'class="en-cours"';} ?>><p>Contact</p></a></li>
       
           <?php if(!isset($_SESSION['connexion'])):?>
-            <li class="client"><a href="Login.php"> <p>Login</p></a></li>
+            <li class="client"><a href="Login.php" <?php if($nav_en_cours == 'login'){echo 'class="en-cours"';} ?>> <p>Login</p></a></li>
           <?php else:?>
-            <li class="client"><a href="Account.php"><p> Account</p></a></li>
+            <li class="client"><a href="Account.php" <?php if($nav_en_cours == 'account'){echo 'class="en-cours"';} ?>><p> Account</p></a></li>
           <?php endif ?>
 
           <!-- Check if this still work when it will be online -->
