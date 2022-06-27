@@ -37,7 +37,7 @@ input[type=submit] {
   padding: 1% 5%;
   cursor: pointer;
   font-size: 100%;
-  margin-top: 8.3%;
+  margin-top: 90px;
   margin-bottom: 2%;
 }
 
@@ -157,7 +157,15 @@ input[type=range]:active::-webkit-slider-runnable-track {
 }
 
 
-
+@media screen and (max-width: 633px ){
+  input[type=range] {
+    width: 70%;
+  }
+  .choice {
+    width: 67%;
+    text-align: center;
+  }
+}
 
 /* Errot message */
 /* (A) BACKGROUND */
