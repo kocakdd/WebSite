@@ -46,9 +46,11 @@
 
         <ul class="link_menu">
 
-          <li><a href="Home.php"><p>Home</p></a></li>
+          <li><a href="Home.php" <?php if($nav_en_cours == 'home'){echo 'class="en-cours"';} ?>><p>Home</p></a></li>
+
+          <li><a href="Bereken.php" <?php if($nav_en_cours == 'bereken'){echo 'class="en-cours"';} ?>><p>Bereken</p></a></li>
           
-          <li> <a href="#"> <p>Diensten</p> </a>
+          <li> <a href="#" <?php if($nav_en_cours == 'diensten'){echo 'class="en-cours"';} ?>> <p>Diensten</p> </a>
             <ul>
               <li><a href="Hypotheekadvies.php"><p>Hypotheekadvies</p></a></li>
               <li><a href="Hypotheekadvies.php"><p>2nd Opinion</p></a></li>
@@ -56,8 +58,8 @@
             </ul>
           </li>
           
-          <li><a href="Team.php"><p>Team</p></a></li>
-          <li><a href="Contact.php"><p>Contact</p></a></li>
+          <li><a href="Team.php" <?php if($nav_en_cours == 'team'){echo 'class="en-cours"';} ?>><p>Team</p></a></li>
+          <li><a href="Contact.php" <?php if($nav_en_cours == 'contact'){echo 'class="en-cours"';} ?>><p>Contact</p></a></li>
       
           <?php if(!isset($_SESSION['connexion'])):?>
             <li class="client"><a href="Login.php"> <p>Login</p></a></li>

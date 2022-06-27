@@ -107,6 +107,10 @@
   top : 7.5px;
 }
 
+.en-cours{
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 870px) {
   .logo_menu .text_logo{
      display: none;
