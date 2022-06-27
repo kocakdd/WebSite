@@ -12,45 +12,48 @@ html,body {
   position: relative;
  }
  .label1{
-  margin-top:3%;
-   position: relative;
-   font-size :160%;
+  position: relative;
+   font-size :180%;
+   height:40px;
    font-weight: bold;
-   font-family: sofia-pro, sans-serif;
-   margin-left:3%;
-   
+   font-family:  sofia-pro, sans-serif;
+    margin-left:4%;
  }
+
  .label2{
-   position: relative;
-   font-size : 100%;
-   font-weight: bold;
-   font-family: sofia-pro, sans-serif;
-   margin-left : 10.3%;
-   margin-right : 10.3%;
-   color: #009353;
-   line-height: 100%;
-   top:10px;
+  position: relative;
+  font-size : 120%;
+  height:50px;
+  margin-left:6%;
+  font-family: sofia-pro, sans-serif;
+  line-height: 100%;
+  top:40px;
  }
+
  .info{
   position: relative;
   font-size : 90%;
-  height: 50px;
-  font-family: yu-gothic, sofia-pro, sans-serif;
-  margin-left : 10.3%;
-  margin-right : 10.3%;
+  margin-left:6%;
+  opacity:0.8;
+  font-family: yu-gothic, sans-serif;
   line-height: 100%;
-  top:40px;
+  height:20px;
+  top:20px;
  }
  .link{
   position: relative;
-  font-size : 170%;
-  height: 50px;
-  color: #009353;
+  font-size : 120%;
+  height:50px;
+  margin-left:6%;
+  font-weight: bold;
   font-family: yu-gothic, sofia-pro, sans-serif;
-  margin-left : 10.3%;
-  margin-right : 10.3%;
   line-height: 100%;
-  top:40px;
+  top:50px;
+ }
+
+ .link:hover{
+  color:#006D3E;
+  cursor:grab;
  }
  ul {
   padding:0;

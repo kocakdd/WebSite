@@ -32,13 +32,13 @@
     
     <p class="label1"> Persoonsgegevens </p>
     <div class="row">
-    <div class="col">
+    <div class="col first">
       <ul>
     <li><p class="label2"> Naam </p></li>
     <li><p class="info"><?= htmlspecialchars($_SESSION['voornaam'])." ".htmlspecialchars($_SESSION['achternaam']) ?></p></li>
 
     <li><p class="label2"> Adres </p></li>
-    <li><p class="content"><?= htmlspecialchars($_SESSION['adres'])."  ".htmlspecialchars($_SESSION['woonplaats'])."  ".htmlspecialchars($_SESSION['postcode']) ?></p></li>
+    <li><p class="info"><?= htmlspecialchars($_SESSION['adres'])."  ".htmlspecialchars($_SESSION['woonplaats'])."  ".htmlspecialchars($_SESSION['postcode']) ?></p></li>
 
     <li><p class="label2"> E-mail adres </p></li>
     <li><p class="info"><?= htmlspecialchars($_SESSION['email'])?></p><li>
@@ -53,7 +53,8 @@
 
     <li><p class="label2"> Telefoonnummer </p></li>
     <li><p class="info"><?= htmlspecialchars($_SESSION['telefonnummer']) ?></p></li>
-    </ul>
+    <li><p onclick="window.location.href='wachtwoord_wijzig.php';" class="link"> Wijzig uw wachtwoord </p></li>
+  </ul>
   </div>
 
     <div class="col">
@@ -69,9 +70,7 @@
 </ul>
     </div>
     </div>
-    <p class="label2"> Wachtwoord </p>
-    <a href="wachtwoord_wijzig.php"><p class="link"> Wijzig uw wachtwoord </p></a>
-
+    
     
   </div>
 

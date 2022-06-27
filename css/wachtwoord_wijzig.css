@@ -1,0 +1,105 @@
+html,body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+ }
+
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: yu-gothic, sofia-pro, sans-serif;}
+
+
+
+
+/**************/
+/* Login form */
+/**************/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=email],input[type=password],input[type=text], select, textarea {
+  position: relative;
+  width: 100%; /* Full width */
+  padding: 2%; /* Some padding */ 
+  border: 0px outset #009353; /* Border */
+  /*box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2%; /* Add a top margin */
+  margin-bottom: 3.3%; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  -moz-box-shadow: 4px 4px 10px #009353;
+  -webkit-box-shadow: 4px 4px 10px #009353;
+  box-shadow: 4px 4px 10px #009353;
+  font-size : 270%;
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  position : relative;
+  background-color: white;
+  color: #009353;
+  border : 3px solid #009353;
+  padding: 2% 23%;
+  cursor: pointer;
+  font-size: 250%;
+  margin-top: 4.3%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #009353;
+  color : white;
+}
+
+/* Add a background color and some padding around the form */
+.formulier {
+  background-color: white;
+  padding: 8.6%;
+  position: relative;
+  height:1400px;
+  top : 10%;
+  font-family : sofia-pro, sans-serif;
+}
+
+.formulier h2{
+  font-size: 280%;
+  font-weight: bold;
+  margin-bottom: 3.4%;
+}
+
+.formulier form label{
+  font-size: 260%;
+  position: relative;
+  margin-bottom: 2%;
+  margin-top: 3.3%;
+  font-weight: normal;
+}
+.formulier img{
+  
+  height:40px;
+}
+
+.formulier form a{
+
+  padding-left: 20px;
+  position: relative;
+  text-decoration: none;
+  font-size: 170%;
+  color : black;
+}
+
+.formulier  form a:hover{
+  position: relative;
+  text-decoration: none;
+  color : #009353;
+}
+
+
+.footer_align{
+  top:0;
+  margin-bottom:300px;
+  border-color: #009353;
+  background-color: black;
+  position: relative;
+  height:30px;
+}
