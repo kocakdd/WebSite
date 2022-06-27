@@ -1,4 +1,4 @@
-<?php session_start();?>
+
 <?php require('../Action/sUp.php');?>
 <!DOCTYPE html>
 <html lang="NL">

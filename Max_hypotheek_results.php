@@ -21,6 +21,7 @@
 <body>
 
   <!-- Header -->
+  <?php $nav_en_cours = 'bereken'; ?>
   <?php include_once('Action/header.php'); ?>
 
   <!-- Content --> 

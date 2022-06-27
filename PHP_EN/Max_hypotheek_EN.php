@@ -1,29 +1,8 @@
-<?php session_start();?>
-<!DOCTYPE html>
-<html lang="NL">
-
-<head>	
-	<title> Hypotheekvitaal - Max Mortgage </title>	
-	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
-	<META	NAME="description"	CONTENT="Max Hypotheek">	
-	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
-	<META	NAME="keywords"	CONTENT="Rotterdam, Hypotheekready">	
-	<META	NAME="subject"	CONTENT="Max Hypotheek">	
 
   <!-- CSS link -->
 	<link rel="stylesheet" href="../css/Max_hypotheek.css">
 
-<!-- Icon image -->
-  <link rel="icon" href="../images/LogoHyp.svg">
 
-
-</head>	
-
-<body>
-    
-  <!-- Header -->
-  <?php $nav_en_cours = 'bereken'; ?>
-  <?php include_once('header_EN.php'); ?>
 
   <!-- Content --> 
 <div class="content">
