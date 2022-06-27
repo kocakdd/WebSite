@@ -16,7 +16,7 @@
 input[type=number],select, textarea {
   position: relative;
   width: 50%; /* Full width */
-  padding: 1%; /* Some padding */ 
+  padding: 1%!important; /* Some padding */ 
   border: 0px outset #009353; /* Border */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 1%; /* Add a top margin */
