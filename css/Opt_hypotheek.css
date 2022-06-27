@@ -25,7 +25,7 @@
 /* Style inputs with type="text", select elements and textareas */
 input[type=number], input[type=email], input[type=text]{
   position: relative;
-  width: 50%; /* Full width */
+  width: 70%; /* Full width */
   padding: 1%; /* Some padding */ 
   border: 0px outset #009353; /* Border */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -47,7 +47,7 @@ input[type=submit] {
   padding: 1% 5%;
   cursor: pointer;
   font-size: 100%;
-  margin-top: 8.3%;
+  margin-top: 90px;
   margin-bottom: 2%;
 }
 
@@ -76,4 +76,15 @@ input[type=submit]:hover {
   margin-bottom: 1%;
   margin-top: 2.3%;
   font-weight: normal;
+}
+
+@media screen and (max-width : 950px ){
+
+  .column {
+    
+    width: 100%;
+  }
+  .row{
+    flex-direction: column;
+  }
 }
