@@ -43,7 +43,7 @@
         </div>
       
         <div class="span-right" id="span-right" style="display:none;left:0%;" >
-          <?php include("Persoonsgegevens.php"); ?>
+          <?php include("Persoongegevens_EN.php"); ?>
         </div>
       
       <script type="text/javascript">
