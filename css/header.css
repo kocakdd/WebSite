@@ -108,7 +108,7 @@
 }
 
 .en-cours{
-  text-decoration: underline;
+  text-decoration: underline!important;
 }
 
 @media screen and (max-width: 995px) {
