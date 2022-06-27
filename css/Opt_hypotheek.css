@@ -26,7 +26,7 @@
 input[type=number], input[type=email], input[type=text]{
   position: relative;
   width: 70%; /* Full width */
-  padding: 1%; /* Some padding */ 
+  padding: 2%; /* Some padding */ 
   border: 0px outset #009353; /* Border */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 1%; /* Add a top margin */
