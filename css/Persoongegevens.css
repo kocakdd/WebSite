@@ -16,6 +16,7 @@ body{
   position: relative;
  }
  .label1{
+  top:10%;
   position: relative;
    font-size :180%;
    height:40px;
@@ -53,6 +54,7 @@ body{
   font-family: yu-gothic, sofia-pro, sans-serif;
   line-height: 100%;
   top:50px;
+  margin-bottom:20px;
  }
 
  .link:hover{

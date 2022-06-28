@@ -1,6 +1,5 @@
 <?php
 require('db_client.php');
-session_start();
 if(isset($_POST['validate'])){ 
     $oldpass=$_POST['passOld'];
     $user_email=$_SESSION['email'];
