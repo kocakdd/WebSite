@@ -11,7 +11,7 @@
 	margin : 0px;
 }
 
-.text-first{
+.text-first-opt{
   position : relative;
   background-color: #F8FFF9;
   padding: 3.6% 8.6% 3.6% 8.6%;
@@ -23,7 +23,7 @@
 /****************/
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=number], input[type=email], input[type=text]{
+.formulier-opt input[type=number], .formulier-opt input[type=email], .formulier-opt input[type=text]{
   position: relative;
   width: 70%; /* Full width */
   padding: 2%; /* Some padding */ 
@@ -39,7 +39,7 @@ input[type=number], input[type=email], input[type=text]{
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+.formulier-opt input[type=submit] {
   background-color: white;
   color: #009353;
   position: relative;
@@ -52,14 +52,14 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+.formulier-opt input[type=submit]:hover {
   background-color: #009353;
   color : white;
   position:relative;
 }
 
 /* Add a background color and some padding around the form */
-.formulier {
+.formulier-opt {
   width : 100%;
   padding: 3.6% 8.6% 8.6% 8.6%;
   position: relative;
@@ -70,7 +70,7 @@ input[type=submit]:hover {
   background-color: white;
 }
 
-.formulier label{
+.formulier-opt label{
   position: relative;
   font-size: 100%;
   margin-bottom: 1%;
