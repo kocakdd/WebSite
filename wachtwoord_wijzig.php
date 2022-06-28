@@ -1,26 +1,28 @@
 <?php session_start();?>
-<?php require('Action/pwd_wijzig.php');?>
+<?php require('Action/log.php');?>
 <!DOCTYPE html>
 <html lang="NL">
 
 <head>	
-	<title> Hypotheekvitaal - Wachtwoord wijzig </title>	
-	<META	NAME="author"	CONTENT="Kocak Derya">	
-	<META	NAME="description"	CONTENT="wachtwoord wijzig">	
+	<title> Hypotheekvitaal - Wachtwoord wijzig  </title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <META	NAME="author"	CONTENT="Kocak Derya">	
+	<META	NAME="description"	CONTENT="wachtwoord">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
 	<META	NAME="keywords"	CONTENT="Rotterdam, Hypotheekready">	
 	<META	NAME="subject"	CONTENT="Login">	
+  <META  charset="UTF-8">
+  <META name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- CSS link -->
-	<link rel="stylesheet" href="css/Login.css">
+	<link rel="stylesheet" href="css/wachtwoord_wijzig.css">
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Icon image -->
+  <link rel="icon" href="images/LogoHyp.svg">
 	
 </head>	
 
 <body>
-  
   <!-- Header -->
   <?php $nav_en_cours = 'account'; ?>
   <?php include_once('Action/header.php'); ?>
@@ -32,13 +34,13 @@
     <form class=container method="post">
 
       <label for="password"> Password <!--<img src="images/eye_hide.png" id="eye" onClick="change()"/>--></label><br>
-      <input type="password" id="old_password" name="passOld" placeholder="Old Password placeholder"  required><br>
+      <input class="holder" type="password" id="old_password" name="passOld" placeholder="Old Password placeholder"  required><br>
       
       <label for="password"> New Password </label><br>
-      <input type="password"  id="passOne" name="passOne" placeholder="Password placeholder" title='Minstens 8 tekens inclusief een getal, een hoofdletter, een kleine letter en een symbool (!@#$%^&*=+-_)' pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$' required ><br>
+      <input class="holder" type="password"  id="passOne" name="passOne" placeholder="Password placeholder" title='Minstens 8 tekens inclusief een getal, een hoofdletter, een kleine letter en een symbool (!@#$%^&*=+-_)' pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$' required ><br>
       
       <label for="password"> Confirm new Password </label><br>
-      <input type="password"  id="passTwo" name="passTwo" placeholder="Password placeholder" required><br>
+      <input class="holder" type="password"  id="passTwo" name="passTwo" placeholder="Password placeholder" required><br>
       
       <button type="submit"  name='validate'> Wijzig </button>
       <?php if(isset($error)){echo '<p style="color:red;font-size:200%;"> <br/><br/>'.$error.'</a>';}?><br>

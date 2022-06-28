@@ -10,9 +10,9 @@ body{
 }
 .content{
   margin-top:0;
-  min-height: 600px;
+  min-height: 800px;
 }
-.content p {
+.content p{
   font-size : 90%;
   font-family: yu-gothic, sofia-pro, sans-serif;
 }
@@ -48,6 +48,7 @@ input[type=password], select, textarea {
 /* Style the submit button with a specific background color etc */
 button[type=submit] {
   position : relative;
+  margin-bottom:10px;
   background-color: white;
   color: #009353;
   border : 3px solid #009353;
@@ -66,12 +67,15 @@ button[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .formulier {
   background-color: white;
-  padding: 3.6% 8.6% 0% 8.6%;
+  padding: 3.6% 8.6% 3.6% 8.6%;
   position: relative;
   top : 55px;
+  height:auto;
 }
 
-
+.formulier .holder{
+  font-size: 90%;
+}
 .formulier form label{
   font-size: 100%;
   position: relative;
@@ -103,3 +107,15 @@ button[type=submit]:hover {
 }
 
 
+@media screen and (max-width : 730px) {
+  .content {
+    min-height: 600px;
+  }
+}
+
+@media screen and (max-width : 550px){
+  .content {
+    min-height: 420px;
+  }
+
+}
