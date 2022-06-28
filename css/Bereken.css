@@ -86,16 +86,3 @@ html,body {
 
 }
 
-@media screen and (max-width: 500px) {
-
-  .switch{
-    top : 84px;
-  }
-  .span-left {
-    top: 165px;
-  }
-  .span-right {
-    top: 165px;
-  }
-
-}

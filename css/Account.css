@@ -54,6 +54,7 @@ body{
   position: absolute;
   width:  100%;
   background-color:white;
+  height: fit-content;
 }
 
 .span-left{
@@ -61,4 +62,14 @@ body{
   position: absolute;
   width:  100%;
   background-color:white;
+  height: fit-content!important;
 }
+
+@media screen and (max-width: 806px) {
+
+  .switch{
+    top : 34px;
+  }
+
+}
+

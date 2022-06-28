@@ -146,9 +146,12 @@
 }
 
 @media screen and (max-width : 550px){
-  .logo_menu{
-    display : none!important;
+  
+  
+  .menu ul li a{
+    padding: 10px 10px;
   }
+
 }
 
 

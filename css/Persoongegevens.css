@@ -74,11 +74,11 @@ body{
 
 @media screen and (max-width : 550px){
   .label1{
-    font-size :120%;
+    font-size :140%;
   }
 
   .label2{
-    font-size:90%;
+    font-size:100%;
   }
 
   .link{
@@ -86,7 +86,7 @@ body{
   }
 
   .info{
-    font-size:60%;
+    font-size:80%;
   }
 }
  
