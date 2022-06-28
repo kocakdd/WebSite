@@ -53,8 +53,7 @@
 
     <li><p class="label2"> Telefoonnummer </p></li>
     <li><p class="info"><?= htmlspecialchars($_SESSION['telefonnummer']) ?></p></li>
-    <li><p onclick="window.location.href='wachtwoord_wijzig.php';" class="link"> Wijzig uw wachtwoord </p></li>
-  </ul>
+    </ul>
   </div>
 
     <div class="col">
@@ -69,6 +68,14 @@
     <li><p class="info"><?= htmlspecialchars($_SESSION['hypotheek']) ?></p></li>
 </ul>
     </div>
+    </div>
+    <div class="row end">
+      <div class="col">
+          <p onclick="window.location.href='wachtwoord_wijzig.php';" class="link"> Wijzig uw wachtwoord </p>
+      </div>
+      <div class="col">
+          <p onclick="window.location.href='Logout.php';" class="link"> LogOut </p>
+      </div>
     </div>
     
 </div>
