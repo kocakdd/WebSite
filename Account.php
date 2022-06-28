@@ -4,6 +4,7 @@
 
 <head>	
 	<title> Hypotheekvitaak - Account </title>	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
 	<META	NAME="description"	CONTENT="Account">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	

@@ -1,6 +1,6 @@
 html {
   height:100%;
-  width:100%;
+  max-width:100%;
   margin: 0;
   padding: 0;
 }
@@ -9,11 +9,13 @@ body{
   display : grid;
   grid-template-rows: auto 1fr auto;
 }
- 
+
+
  /* My text*/
  .user_info{
   height: auto;
   position: relative;
+  margin-bottom: 20px;
  }
  .label1{
   top:10%;
@@ -70,4 +72,21 @@ body{
   margin-bottom:10%;
 }
 
+@media screen and (max-width : 550px){
+  .label1{
+    font-size :120%;
+  }
+
+  .label2{
+    font-size:90%;
+  }
+
+  .link{
+    font-size:90%;
+  }
+
+  .info{
+    font-size:60%;
+  }
+}
  
