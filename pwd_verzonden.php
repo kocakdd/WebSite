@@ -1,5 +1,4 @@
 <?php session_start();?>
-<?php require('Action/log_out.php'); ?>
 <!DOCTYPE html>
 <html lang="NL">
 
@@ -14,10 +13,7 @@
   <!-- CSS link -->
 	<link rel="stylesheet" href="css/formulier_verzonden.css">
 
-  
-  <!-- Icon image -->
-  <link rel="icon" href="images/LogoHyp.svg">
-  
+
 </head>	
 
 <body>
@@ -29,18 +25,18 @@
   <!-- PHP - Link with the DataBase-->
   <?php require('Action/db_contact.php'); ?>
 
-  <div class="content">
+<div class="content">
   <!-- Body -->
   <!-- htmlspecialchars allow to have the character < and no execution of html code -->
   <div class ="block_text">
-  <p class="title1">Wilt u de verbinding verbreken? </p>
+  <p class="title1">  <br/> <br/> Uw wachtwoord is gewijzigd  </p>
   <!-- Button -->
-  <form method="post" >
-  <button  class="button" type="submit" name="logout" >LogOut</button>
-  </form>
+  <a href="Account.php"><button class="button"  role="button" >Terug naar Account </button></a>
+  
   </div>
 
-  </div>
+</div>
+
    <!--Footer-->
   <?php include('Action/footer.php'); ?>
 

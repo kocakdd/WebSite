@@ -1,5 +1,5 @@
 <?php session_start();?>
-<?php require('Action/log.php');?>
+<?php require('Action/pwd_wijzig.php');?>
 <!DOCTYPE html>
 <html lang="NL">
 
@@ -12,7 +12,7 @@
 	<META	NAME="keywords"	CONTENT="Rotterdam, Hypotheekready">	
 	<META	NAME="subject"	CONTENT="Login">	
   <META  charset="UTF-8">
-  <META name="viewport" content="width=device-width, initial-scale=1">
+  
 
   <!-- CSS link -->
 	<link rel="stylesheet" href="css/wachtwoord_wijzig.css">

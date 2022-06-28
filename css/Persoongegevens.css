@@ -10,9 +10,6 @@ body{
   grid-template-rows: auto 1fr auto;
 }
 
-
-
-
  /* My text*/
  .user_info{
   height:auto;
