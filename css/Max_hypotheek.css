@@ -38,7 +38,7 @@ input[type=submit] {
   cursor: pointer;
   font-size: 100%;
   margin-top: 90px;
-  margin-bottom: 2%;
+  margin-bottom: 50px;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -163,6 +163,19 @@ input[type=range]:active::-webkit-slider-runnable-track {
   }
   .choice {
     width: 67%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 612px){
+  .choice {
+    width: 75%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 549px){
+  .choice {
+    width: 83%;
     text-align: center;
   }
 }

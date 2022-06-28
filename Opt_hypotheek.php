@@ -18,8 +18,8 @@
     <h2 > Vul onderstaande gegevens in </h2>
 
     <form method="post">
-      <div class="row">
-        <div class="column">
+      <div class="row-opt">
+        <div class="column-opt">
       <label for="fname"> Name person </label><br>
       <input type="text" name="fname" placeholder="Name placeholder" pattern="[a-zA-Z- ]{1,60}" required><br>
 
@@ -32,7 +32,7 @@
       <label for="salary"> Gross Income </label><br>
       <input type="number" name="gross_income" placeholder="Gross Income placeholder" min="10000" required><br>
     </div>
-    <div class="column">
+    <div class="column-opt">
       <label for="salary"> Monthly budget </label><br>
       <input type="number" name="monthly_budget" placeholder="Monthly budget placeholder" min="10000" required><br>
 

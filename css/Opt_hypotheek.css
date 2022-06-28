@@ -2,11 +2,11 @@
 /*  Columns  */
 /************/
 
-.column{
+.column-opt{
 	float : left;
 	width : 50%;
 }
-.row{
+.row-opt{
 	display : flex;
 	margin : 0px;
 }
@@ -48,7 +48,7 @@
   cursor: pointer;
   font-size: 100%;
   margin-top: 90px;
-  margin-bottom: 2%;
+  margin-bottom: 50px;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -80,11 +80,11 @@
 
 @media screen and (max-width : 950px ){
 
-  .column {
+  .column-opt {
     
     width: 100%;
   }
-  .row{
+  .row-opt{
     flex-direction: column;
   }
 }
