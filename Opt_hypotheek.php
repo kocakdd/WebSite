@@ -1,5 +1,7 @@
+<?php include_once('Action/db_contact_opt_hypo.php'); ?>
+
 <!-- CSS link -->
-	<link rel="stylesheet" href="css/Opt_hypotheek.css">
+<link rel="stylesheet" href="css/Opt_hypotheek.css">
 
 
   <!-- Content --> 
@@ -38,13 +40,13 @@
       <input type="number" name="house_price" placeholder="Value of the house placeholder" min="10000" required><br>
 
       <label for="salary"> WOZ value of the house </label><br>
-      <input type="number" name="house_price" placeholder="WOZ placeholder" min="10000" required><br>
+      <input type="number" name="woz_value" placeholder="WOZ placeholder" min="10000" required><br>
 
       <label for="salary"> Age of retirement </label><br>
-      <input type="number" name="house_price" placeholder="Age of retirement placeholder" min="20" max="100" required>
+      <input type="number" name="age_retirement" placeholder="Age of retirement placeholder" min="20" max="100" required>
     </div>
   </div>
-      <input type="submit" value="Bereken">
+      <input type="submit" name="validate" value="Bereken">
     </form>
   </div>
 

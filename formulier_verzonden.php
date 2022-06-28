@@ -21,6 +21,7 @@
 <body>
 
   <!-- Header -->
+  <?php $nav_en_cours = 'contact'; ?>
   <?php require('Action/header.php'); ?>
 
 
@@ -30,7 +31,7 @@
   <div class="content">
   <!-- htmlspecialchars allow to have the character < and no execution of html code -->
   <div class ="block_text">
-  <p class="title1"> <?= htmlspecialchars($_SESSION['fname']) ?>uw formulier is verzonden</p>
+  <p class="title1"> <?= htmlspecialchars($_SESSION['fname'].'') ?> uw formulier is verzonden</p>
   <p class="title2"> Wij nemen zo snel mogelijk contact met u op ! </p>
   <!-- Button -->
   <button onclick="window.location.href='Home.php';" class="button"  role="button" >Terug naar Home</button>
