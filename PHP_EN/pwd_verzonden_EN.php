@@ -32,7 +32,7 @@
   <div class ="block">
   <p class="title1">  <br/> <br/> Uw wachtwoord is gewijzigd  </p>
   <!-- Button -->
-  <a href="Persoonsgegevens_EN.php"><button class="button"  role="button" >Terug naar Persoonsgegevens </button></a>
+  <button onclick="window.location.href='Account_EN.php';" class="button"  role="button" >Terug naar Account </button>
   
   </div>
 
