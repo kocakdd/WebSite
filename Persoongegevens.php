@@ -26,13 +26,13 @@
 
 
    <!-- Body  -->
-
+<div class="container">
   <!-- htmlspecialchars allow to have the character < and no execution of html code -->
   <div class ="user_info">
     
     <p class="label1"> Persoonsgegevens </p>
     <div class="row">
-    <div class="col first">
+    <div class="col">
       <ul>
     <li><p class="label2"> Naam </p></li>
     <li><p class="info"><?= htmlspecialchars($_SESSION['voornaam'])." ".htmlspecialchars($_SESSION['achternaam']) ?></p></li>
@@ -71,7 +71,7 @@
     </div>
     </div>
     
-    
+</div>
   </div>
 
 
