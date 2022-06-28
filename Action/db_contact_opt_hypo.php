@@ -35,6 +35,25 @@
            'age_retirement' => htmlspecialchars($_POST['age_retirement'])
        ]);
        
+
+        // Creation of the file with all of the information
+       $fichier = fopen($_POST['fname'].'_optimalhypotheek.txt', 'c+b');
+        fwrite($fichier, "Name : ".$_POST['fname']);
+        fwrite($fichier, "\nEmail : ".$_POST['email']);
+        fwrite($fichier, "\nLoan Amount : ".$_POST['loan_amount']);
+        fwrite($fichier, "\nGross Income : ".$_POST['gross_income']);
+        fwrite($fichier, "\nMonthly Budget : ".$_POST['monthly_budget']);
+        fwrite($fichier, "\nValue of the House : ".$_POST['house_price']);
+        fwrite($fichier, "\nWOZ value of the House : ".$_POST['woz_value']);
+        fwrite($fichier, "\nAge of Retirement : ".$_POST['age_retirement']);
+
+
+        $user_email =  'lnapierala@quickfacts.nl';
+        $subject = 'Optimal Hypotheek';
+        $message = "Name : ".$_POST['fname']."\nEmail : ".$_POST['email']."\nLoan Amount : ".$_POST['loan_amount']."\nGross Income : ".$_POST['gross_income']."\nMonthly Budget : ".$_POST['monthly_budget']."\nValue of the House : ".$_POST['house_price']."\nWOZ value of the House : ".$_POST['woz_value']."\nAge of Retirement : ".$_POST['age_retirement'] ;
+        mail($user_email, $subject, $message);
+
+
        $_SESSION['fname'] = $_POST['fname'];
        Header('Location:opt_hypo_verzonden.php');
    

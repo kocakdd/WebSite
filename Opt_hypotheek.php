@@ -18,8 +18,8 @@
     <h2 > Vul onderstaande gegevens in </h2>
 
     <form method="post">
-      <div class="row">
-        <div class="column">
+      <div class="row-opt">
+        <div class="column-opt">
       <label for="fname"> Name person </label><br>
       <input type="text" name="fname" placeholder="Name placeholder" pattern="[a-zA-Z- ]{1,60}" required><br>
 
@@ -27,20 +27,20 @@
       <input type="email" name="email" placeholder="E-mail placeholder" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required><br>
 
       <label for="salary"> Loan Amount </label><br>
-      <input type="number" name="loan_amount" placeholder="Loan Amount placeholder" min="10000" required><br>
+      <input type="number" name="loan_amount" placeholder="Loan Amount placeholder" min="0" required><br>
 
       <label for="salary"> Gross Income </label><br>
-      <input type="number" name="gross_income" placeholder="Gross Income placeholder" min="10000" required><br>
+      <input type="number" name="gross_income" placeholder="Gross Income placeholder" min="0" required><br>
     </div>
-    <div class="column">
+    <div class="column-opt">
       <label for="salary"> Monthly budget </label><br>
-      <input type="number" name="monthly_budget" placeholder="Monthly budget placeholder" min="10000" required><br>
+      <input type="number" name="monthly_budget" placeholder="Monthly budget placeholder" min="0" required><br>
 
       <label for="salary"> Value of the house </label><br>
-      <input type="number" name="house_price" placeholder="Value of the house placeholder" min="10000" required><br>
+      <input type="number" name="house_price" placeholder="Value of the house placeholder" min="0" required><br>
 
       <label for="salary"> WOZ value of the house </label><br>
-      <input type="number" name="woz_value" placeholder="WOZ placeholder" min="10000" required><br>
+      <input type="number" name="woz_value" placeholder="WOZ placeholder" min="0" required><br>
 
       <label for="salary"> Age of retirement </label><br>
       <input type="number" name="age_retirement" placeholder="Age of retirement placeholder" min="20" max="100" required>
