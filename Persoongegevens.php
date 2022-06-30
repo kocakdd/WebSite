@@ -69,7 +69,7 @@
 </ul>
     </div>
     </div>
-    <div class="row end">
+    <div class="row button">
       <div class="col">
           <p onclick="window.location.href='wachtwoord_wijzig.php';" class="link"> Wijzig uw wachtwoord </p>
       </div>

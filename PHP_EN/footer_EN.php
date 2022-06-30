@@ -4,20 +4,20 @@
         <footer>
             <div class="container">
                 <div class="row one">
-                    <div class="col-sm  item first">
+                    <div class="col  item first">
                         <a href="tel:+31612345678"><h3>Contact</h3></a>
                         <ul>
                             <li><a href="tel:+31612345678"><img src="../images/call.png" class="logo"/><p class="text">+31612345678</p></a></li>
                             <li><a href="mailto:info@hypotheekvitaal.nl"><img src="../images/mail.png" class="logo" /><p class="text"> info@hypotheekvitaal.nl</p></a></li>
                         </ul>
                     </div>
-                    <div class="col-sm  item second">
+                    <div class="col  item second">
                         <a href="https://goo.gl/maps/edtYsPAJFtuqn7VN6"><h3>Locatie</h3></a>
                         <ul>
                             <li><a href="https://goo.gl/maps/edtYsPAJFtuqn7VN6"><p class="text">Fascinato Boulevard 562<br/>Capelle aan den ijsel 2909 VA</p></a></li>
                         </ul>
                     </div>
-                    <div class="col-sm  item third">
+                    <div class="col  item third">
                         <a href="https://www.linkedin.com/company/quickfacts2/about/"><h3>Socials</h3></a>
                         <ul>
                             <li><a href="https://www.linkedin.com/company/quickfacts2/about/"><img src="../images/linkedin.png" class="logo"/><p class="text">LinkedIn</p></a></li>

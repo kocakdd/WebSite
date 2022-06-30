@@ -53,16 +53,14 @@
 
     <li><p class="label2"> Phone number </p></li>
     <li><p class="info"><?= htmlspecialchars($_SESSION['telefonnummer']) ?></p></li>
-    <li><p onclick="window.location.href='wachtwoord_wijzig.php';" class="link"> Change your password </p></li>
   </ul>
   </div>
-
-    <div class="col">
+  <div class="col">
       <ul>
-    <li><p class="label2"> Name Partner </p></li>
+    <li><p class="label2"> Partner's name </p></li>
     <li><p class="info"><?=htmlspecialchars( $_SESSION['pvoornaam'])."  ".htmlspecialchars($_SESSION['pachternaam']) ?></p></li>
 
-    <li><p class="label2"> Status Partner </p></li>
+    <li><p class="label2"> Partner's Status </p></li>
     <li><p class="info"><?= htmlspecialchars($_SESSION['status']) ?></p></li>
 
     <li><p class="label2"> Mortgage </p></li>
@@ -70,8 +68,16 @@
 </ul>
     </div>
     </div>
+    <div class="row button">
+      <div class="col">
+          <p onclick="window.location.href='wachtwoord_wijzig.php';" class="link"> Change your password </p>
+      </div>
+      <div class="col">
+          <p onclick="window.location.href='Logout.php';" class="link"> LogOut </p>
+      </div>
+    </div>
     
-</div>
+  </div>
   </div>
 
 
