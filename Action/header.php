@@ -69,7 +69,7 @@
 
           <!-- Check if this still work when it will be online -->
           <li class="dutch"> <a href="" > <p>NL </p></a></li>
-          <li class="english"> <a href="<?php echo "PHP_EN/".rtrim( basename($_SERVER['PHP_SELF']), ".php")."_EN.php" ; ?>"  ><p> EN</p></a> </li> 
+          <li class="english"> <a href="<?php echo "EN/".rtrim( basename($_SERVER['PHP_SELF']), ".php").".php" ; ?>"  ><p> EN</p></a> </li> 
           
         
               
