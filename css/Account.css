@@ -57,6 +57,14 @@ body{
   height: fit-content;
 }
 
+.logoleft{
+  height:75%;
+ }
+
+ .logoright{
+  height:110%;
+ }
+
 .span-left{
   top : 115px;
   position: absolute;
@@ -64,6 +72,27 @@ body{
   background-color:white;
   height: fit-content!important;
 }
+@media screen and (max-width: 1006px) {
+  .logoleft{
+    height:75%;
+   }
+  
+   .logoright{
+    height:100%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+  .logoleft{
+    height:75%;
+   }
+  
+   .logoright{
+    height:90%;
+   }
+}
+
+
 
 @media screen and (max-width: 806px) {
 
@@ -71,5 +100,13 @@ body{
     top : 34px;
   }
 
+  .logoleft{
+    height:55%;
+   }
+  
+   .logoright{
+    height:65%;
+   }
+ 
 }
 
