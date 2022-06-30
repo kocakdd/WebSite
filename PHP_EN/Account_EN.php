@@ -57,20 +57,20 @@ l=false;
 
 function change_r(){
   if(r){
-    document.getElementById("right").src = "images/login_right.png";
+    document.getElementById("right").src = "../images/login_right.png";
     document.getElementById("switch-right").style.backgroundColor = '#009353';
     r=false;
     document.getElementById("switch-left").style.backgroundColor = '#FFF';
-    document.getElementById("left").src = "images/login_left.png"; 
+    document.getElementById("left").src = "../images/login_left.png"; 
     l = true;
     toggle_text_l();
   }
   else{
-    document.getElementById("right").src = "images/login_right_g.png"; 
+    document.getElementById("right").src = "../images/login_right_g.png"; 
     document.getElementById("switch-right").style.backgroundColor = '#FFF';
     r=true;
     document.getElementById("switch-left").style.backgroundColor = '#009353';
-    document.getElementById("left").src = "images/login_left_w.png"; 
+    document.getElementById("left").src = "../images/login_left_w.png"; 
     l = false;
     toggle_text_l();
   }
@@ -81,20 +81,20 @@ function change_r(){
 function change_l(){
   if(l){
     document.getElementById("switch-left").style.backgroundColor = '#009353';
-    document.getElementById("left").src = "images/login_left_w.png";
+    document.getElementById("left").src = "../images/login_left_w.png";
     l=false;
 
     document.getElementById("switch-right").style.backgroundColor = '#FFF';
-    document.getElementById("right").src = "images/login_right_g.png"; 
+    document.getElementById("right").src = "../images/login_right_g.png"; 
     r=true;
     toggle_text_r();
   }
   else{
     document.getElementById("switch-left").style.backgroundColor = '#FFF';
-    document.getElementById("left").src = "images/login_left.png";
+    document.getElementById("left").src = "../images/login_left.png";
     l=true;
     document.getElementById("switch-right").style.backgroundColor = '#009353';
-    document.getElementById("right").src = "images/login_right.png"; 
+    document.getElementById("right").src = "../images/login_right.png"; 
     r=false;
     toggle_text_r();
   }
