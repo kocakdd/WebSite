@@ -48,14 +48,52 @@
         fwrite($fichier, "\nAge of Retirement : ".$_POST['age_retirement']);
 
 
-        $user_email =  'lnapierala@quickfacts.nl';
-        $subject = 'Optimal Hypotheek';
-        $message = "Name : ".$_POST['fname']."\nEmail : ".$_POST['email']."\nLoan Amount : ".$_POST['loan_amount']."\nGross Income : ".$_POST['gross_income']."\nMonthly Budget : ".$_POST['monthly_budget']."\nValue of the House : ".$_POST['house_price']."\nWOZ value of the House : ".$_POST['woz_value']."\nAge of Retirement : ".$_POST['age_retirement'] ;
-        mail($user_email, $subject, $message);
 
+    $user_email =  'lnapierala@quickfacts.nl'; //receiver of the mail (put the email of the data scientist)
+    $subject = "Optimal Hypotheek";
+    $message = "Attached the data for the Optimal Hypotheek.\n Below also all of the informations";
+    $message.= "Name : ".$_POST['fname']."\nEmail : ".$_POST['email']."\nLoan Amount : ".$_POST['loan_amount']."\nGross Income : ".$_POST['gross_income']."\nMonthly Budget : ".$_POST['monthly_budget']."\nValue of the House : ".$_POST['house_price']."\nWOZ value of the House : ".$_POST['woz_value']."\nAge of Retirement : ".$_POST['age_retirement'] ;
 
-       $_SESSION['fname'] = $_POST['fname'];
-       Header('Location:opt_hypo_verzonden.php');
+    $email_from = "info@hypotheekvitaal.nl";
+    $nom = "Hypotheekvitaal";
+    $passage_ligne = "\n";
+    $boundary = md5(rand()); // clé aléatoire de limite
+    $headers = "From: ".$nom." <".$email_from.">" . $passage_ligne; //Emetteur
+    $headers.= "Reply-to: ".$nom." <".$email_from.">" . $passage_ligne; //Emetteur
+    $headers.= "MIME-Version: 1.0" . $passage_ligne; //Version de MIME
+    $headers.= 'Content-Type: multipart/mixed; boundary='.$boundary .' '. $passage_ligne; 
+
+    function clean_string($string) {
+        $bad = array("content-type","bcc:","to:","cc:","href");
+        return str_replace($bad,"",$string);
+    }
+
+    $nom_fichier = $_POST['fname'].'_optimalhypotheek.txt';
+    $email_message = '--' . $boundary . $passage_ligne; //Séparateur d'ouverture
+    $email_message .= "Content-Type: text/plain; charset=utf-8" . $passage_ligne; //Type du contenu
+    $email_message .= "Content-Transfer-Encoding: 8bit" . $passage_ligne; //Encodage
+    $email_message .= $passage_ligne .clean_string($message). $passage_ligne; //Contenu du message
+
+    $handle = fopen($nom_fichier, 'r'); //Ouverture du fichier  
+    $content = fread($handle, filesize($nom_fichier) ); //Lecture du fichier
+    $encoded_content = chunk_split(base64_encode($content)); //Encodage
+    $f = fclose($handle); //Fermeture du fichier
+            
+    $email_message .= $passage_ligne . "--" . $boundary . $passage_ligne; //Deuxième séparateur d'ouverture
+    $email_message .= 'Content-type:'.'txt'.';name="'.$nom_fichier.'"'. $passage_ligne; //Type de contenu (application/pdf ou image/jpeg)
+    $email_message .='Content-Disposition: attachment; filename="'.$nom_fichier.'"'. $passage_ligne; //Précision de pièce jointe
+    $email_message .= 'Content-transfer-encoding:base64'. $passage_ligne; //Encodage
+    $email_message .= $passage_ligne; //Ligne blanche. IMPORTANT !
+    $email_message .= $encoded_content. $passage_ligne; //Pièce jointe
+    $email_message .= $passage_ligne . "--" . $boundary . "--" . $passage_ligne; //Séparateur de fermeture
+    
+    mail($user_email, $subject, $email_message, $headers, "-f".$email_from);
+
+    unlink($nom_fichier);//delete the file from the serveur
+
+    $_SESSION['fname'] = $_POST['fname'];
+    Header('Location:opt_hypo_verzonden.php');
    
-   }}
+   }
+}
    
