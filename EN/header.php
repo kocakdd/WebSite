@@ -37,8 +37,8 @@
       <div class="menu">
        
         <ul class="logo_menu">
-          <li> <a href="Home_EN.php"><img src="../images/LogoHyp.svg" alt="Logo Compagny"></a></li>
-          <li class="text_logo"> <a href="Home_EN.php"> 
+          <li> <a href="Home.php"><img src="../images/LogoHyp.svg" alt="Logo Compagny"></a></li>
+          <li class="text_logo"> <a href="Home.php"> 
             <h2> Hypotheekvitaal</h2>
             <p> Ready for an house</p> 
           </a></li>
@@ -59,13 +59,13 @@
           </li>
           
           
-          <li><a href="Team_EN.php" <?php if ($nav_en_cours == 'team') {echo ' class="en-cours"';} ?>><p>Team</p></a></li>
-          <li><a href="Contact_EN.php"<?php if ($nav_en_cours == 'contact') {echo ' class="en-cours"';} ?>><p>Contact</p></a></li>
+          <li><a href="Team.php" <?php if ($nav_en_cours == 'team') {echo ' class="en-cours"';} ?>><p>Team</p></a></li>
+          <li><a href="Contact.php"<?php if ($nav_en_cours == 'contact') {echo ' class="en-cours"';} ?>><p>Contact</p></a></li>
       
           <?php if(isset($_SESSION['auth'])):?>
-            <li class="client"><a href="Account_EN.php" <?php if ($nav_en_cours == 'account') {echo ' class="en-cours"';} ?>><p> Account</p></a></li>
+            <li class="client"><a href="Account.php" <?php if ($nav_en_cours == 'account') {echo ' class="en-cours"';} ?>><p> Account</p></a></li>
           <?php else:?>
-            <li class="client"><a href="Login_EN.php" <?php if ($nav_en_cours == 'login') {echo ' class="en-cours"';} ?>> <p>Login</p></a></li>
+            <li class="client"><a href="Login.php" <?php if ($nav_en_cours == 'login') {echo ' class="en-cours"';} ?>> <p>Login</p></a></li>
           <?php endif ?>
 
           <!-- Check if this still work when it will be online -->
