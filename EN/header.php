@@ -50,7 +50,7 @@
           
           <li><a href="Max_hypotheek.php" <?php if ($nav_en_cours == 'bereken') {echo ' class="en-cours"';} ?>><p>Bereken</p></a></li>
 
-          <li> <a href="#" <?php if ($nav_en_cours == 'diensten') {echo ' class="en-cours"';} ?>> <p>Services</p> </a>
+          <li> <a href="" <?php if ($nav_en_cours == 'diensten') {echo ' class="en-cours"';} ?>> <p>Services</p> </a>
             <ul>
               <li><a href="Hypotheekadvies.php" ><p>Mortgage Advices</p></a></li>
               <li><a href="Hypotheekadvies.php"><p>2nd Opinion</p></a></li>

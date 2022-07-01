@@ -50,7 +50,7 @@
 
           <li><a href="Bereken.php" <?php if($nav_en_cours == 'bereken'){echo 'class="en-cours"';} ?>><p>Bereken</p></a></li>
           
-          <li> <a href="#" <?php if($nav_en_cours == 'diensten'){echo 'class="en-cours"';} ?>> <p>Diensten</p> </a>
+          <li> <a href="" <?php if($nav_en_cours == 'diensten'){echo 'class="en-cours"';} ?>> <p>Diensten</p> </a>
             <ul>
               <li><a href="Hypotheekadvies.php"><p>Hypotheekadvies</p></a></li>
               <li><a href="Hypotheekadvies.php"><p>2nd Opinion</p></a></li>
