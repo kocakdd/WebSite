@@ -22,6 +22,7 @@
 <body>
 
     <!-- Header -->
+  <?php $nav_en_cours = 'account'; ?>
   <?php require('header.php'); ?>
 
   <!-- PHP - Link with the DataBase-->

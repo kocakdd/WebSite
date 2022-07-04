@@ -21,6 +21,7 @@
 <body>
 
     <!-- Header -->
+  <?php $nav_en_cours = 'contact'; ?>
   <?php require('header.php'); ?>
 
   <!-- PHP - Link with the DataBase-->
