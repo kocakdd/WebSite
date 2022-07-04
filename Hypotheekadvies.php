@@ -3,7 +3,7 @@
 <html lang="NL">
 
 <head>	
-	<title> Hypotheekvitaal - Home </title>	
+	<title> Hypotheekvitaal - Hypotheekadvies </title>	
 	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
 	<META	NAME="description"	CONTENT="Home">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
@@ -47,6 +47,7 @@
 
   </div>
   <!-- Steps -->
+  <div class="all-step">
   <div class="step-g">
     <div class="text-step">
     <h2> Step 1 </h2>
@@ -86,6 +87,7 @@
     rebum. Stet clita kasd gubergren</p>
     </div>
     <img class="step1-image" src="images/Step3.png" alt="Computer Image">
+  </div>
   </div>
 </div>
 
