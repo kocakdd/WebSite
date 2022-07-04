@@ -31,10 +31,10 @@
 
 <div class="switch">
     <button id="switch-left" class="switch-left" onClick="change_l(),toggle_text_l()">
-      <img class="logoleft" id ="left" src="images/login_left_w.png"  alt="Logo Left" style="width:10%;">
+      <img class="logoleft" id ="left" src="images/login_left_w.png"  alt="Logo Left" >
     </button>
     <button id="switch-right" class="switch-right" onClick="change_r(), toggle_text_r()">
-      <img class="logoright" id="right" src="images/login_right_g.png" alt="Logo Right" style="width:10%;">
+      <img class="logoright" id="right" src="images/login_right_g.png" alt="Logo Right" >
     </button>
 </div>
 
