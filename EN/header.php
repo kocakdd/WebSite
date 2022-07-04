@@ -48,7 +48,7 @@
 
           <li><a href="Home.php" <?php if ($nav_en_cours == 'home') {echo ' class="en-cours"';} ?>><p>Home</p></a></li>
           
-          <li><a href="Max_hypotheek.php" <?php if ($nav_en_cours == 'bereken') {echo ' class="en-cours"';} ?>><p>Bereken</p></a></li>
+          <li><a href="Bereken.php" <?php if ($nav_en_cours == 'bereken') {echo ' class="en-cours"';} ?>><p>Bereken</p></a></li>
 
           <li> <a href="" <?php if ($nav_en_cours == 'diensten') {echo ' class="en-cours"';} ?>> <p>Services</p> </a>
             <ul>

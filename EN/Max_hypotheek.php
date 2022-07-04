@@ -3,30 +3,35 @@
 	<link rel="stylesheet" href="../css/Max_hypotheek.css">
 
 
-
   <!-- Content --> 
 <div class="content">
+
+  <div class="text-first">
+    <h2> Maximal Hypotheek</h2>
+    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+</p>
+  </div>
   <!--Contact Formulier -->
 
   <div class="formulier">
-    <h2 > Calculate your Max Mortgage </h2>
-    <form onsubmit="return validation();" method="post" action="Max_hypotheek_results_EN.php">
-      <label for="salary"> Brut Income </label><br>
+    <h2 > Calcul your maximal hypotheek </h2>
+    <form onsubmit="return validation();" method="post" action="Max_hypotheek_results.php">
+      <label for="salary"> Bruto Jaarinkomen </label><br>
       <input type="number" id="frame" name="salary" min="10000" autofocus required>
 
       <div class="choice">
         <input type="radio" id ="annuitei" name="choice" value="Annuiteitenlening" onclick="show();"/>
-        <label for="annuitei">Annuity</label>
+        <label for="annuitei">Annuiteitenlening</label>
 
         <input type="radio" id="linear" name="choice" value="Lineaire lening" onclick="show();"/>
         <label for="linear">Lineaire lening</label>
 
         <input class="combinate" type="radio" id="combinate" name="choice" value="Combinatielening" onclick="show();"/>
-        <label for="combinate">Combination</label>
+        <label for="combinate">Combinatielening</label>
       </div>
 
       <div class="range-container" id="range-container" style="display:none">
-        <h3> Annuity % </h3>
+        <h3> Annuitei % </h3>
         <input type="range" name="annuitei" id="range" max="100" min="0" step="5">
         <label for="range">50%</label>
         
@@ -116,7 +121,7 @@
         <div id="boxTxt"></div>
         <input type="button" value="OK" onclick="dbox()"/>
       </div></div>
-    <input type="submit" value="Calculate">
+    <input type="submit" value="Bereken">
     </form>
   </div>
 
