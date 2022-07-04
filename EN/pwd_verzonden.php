@@ -21,6 +21,7 @@
 <body>
 
     <!-- Header -->
+  <?php $nav_en_cours = 'login'; ?>
   <?php require('header.php'); ?>
 
   <!-- PHP - Link with the DataBase-->

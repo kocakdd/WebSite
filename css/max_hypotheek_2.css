@@ -101,3 +101,14 @@ input[type=submit]:hover {
   top : 50px;
 }
 
+@media screen and (max-width:  550px){
+  .content{
+    flex-direction: column;
+  }
+  .results {
+    width: 100%;
+  }
+  .formulier {
+    width : 100%;
+  }
+}

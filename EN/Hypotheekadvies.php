@@ -1,9 +1,9 @@
 <?php session_start();?>
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="NL">
 
 <head>	
-	<title> Hypotheekvitaal - Home </title>	
+	<title> Hypotheekvitaal - Mortgage Advices </title>	
 	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
 	<META	NAME="description"	CONTENT="Home">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
@@ -19,20 +19,21 @@
 	
 </head>	
 
-<body>
+
     <!--Header-->    
+<body>  
   <?php $nav_en_cours = 'diensten'; ?>
   <?php include_once('header.php'); ?>
 
- 
   <!-- Content -->  
-<dic class="content">
-  <img class="desk-image" src="../images/Image.png" alt="Font Image">
+<div class="content">
+  <img class="desk-image" src="../images/hypotheekAdvies.png" alt="Font Image">
 
   <div class="first-text-block">
-    
+    <h1 class="bigTitle1">Hypotheekadvies</h1>
+    <h1 class="bigTitle2">Advies, bemiddeling & Optimalisatie</h1>
     <h2 class="title1"> About Hypotheekadvies</h2>
-    <h3 class="title2"> Advices, bemiddeling & Optimization </h3>
+    <h3 class="title2"> Advies, bemiddeling & Optimalisatie </h3>
     <p class="text1"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore 
     et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
     Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit 
@@ -46,6 +47,7 @@
 
   </div>
   <!-- Steps -->
+  <div class="all-step">
   <div class="step-g">
     <div class="text-step">
     <h2> Step 1 </h2>
@@ -86,12 +88,14 @@
     </div>
     <img class="step1-image" src="../images/Step3.png" alt="Computer Image">
   </div>
+  </div>
 </div>
 
 
 
-   <!--Footer-->    
-   <?php include('footer.php'); ?>
+
+   <!--Footer-->   
+   <?php include('footer.php'); ?> 
 
 </body>
 </html>

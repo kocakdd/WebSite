@@ -22,7 +22,7 @@
 <body>
   
   <!-- Header -->
-
+  <?php $nav_en_cours = 'account'; ?>
   <?php include_once('header.php'); ?>
 <div class="content">
     <div class="formulier">

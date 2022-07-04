@@ -1,9 +1,9 @@
 <?php session_start();?>
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="NL">
 
 <head>	
-	<title> Hypotheekvitaal - Max Mortgage Results</title>	
+	<title> Hypotheekvitaal - Max Hypotheek Results</title>	
 	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
 	<META	NAME="description"	CONTENT="Max Hypotheek">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
@@ -95,7 +95,7 @@
   <div class="results">
     <div class="results-content">
     <h2> <?php echo $_SESSION['type_mortgage'] ?> <h2>
-    <h1> Your maximal mortgage </h1>
+    <h1> Uw maximale hypotheek </h1>
     <p> € <?php echo number_format($_SESSION['max_hypo'],2,".", " ")?> </p>
     <h2> Repayement </h2>
     <p> € <?php echo number_format($_SESSION['repayment'],2,"."," ") ?> </p>

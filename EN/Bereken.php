@@ -1,9 +1,9 @@
 <?php session_start();?>
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="NL">
 
 <head>	
-	<title> Hypotheekvitaak - Calcul </title>	
+	<title> Hypotheekvitaak - Bereken </title>	
 	<META	NAME="author"	CONTENT="NAPIERALA Lisa">	
 	<META	NAME="description"	CONTENT="Account">	
 	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
@@ -15,7 +15,7 @@
 
 
    <!-- Icon image -->
-  <link rel="icon" href="images/LogoHyp.svg">
+  <link rel="icon" href="../images/LogoHyp.svg">
 
 </head>	
 
@@ -29,10 +29,10 @@
 
 <div class="switch">
     <button id="switch-left" class="switch-left" onClick="change_l(),toggle_text_l()">
-      Calcul your maximal Mortgage
+      Calcul your max Hypotheek
     </button>
     <button id="switch-right" class="switch-right" onClick="change_r(), toggle_text_r()">
-      Calcul your optimize Mortgage
+      Calcul your optimal Hypotheek
     </button>
 </div>
 

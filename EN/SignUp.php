@@ -1,7 +1,7 @@
 
-<?php require('../Action/sUp.php');?>
+<?php require('sUp.php');?>
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="NL">
 
 <head>	
 
@@ -17,6 +17,7 @@
 
   <div class="formulier2">
     <h2 > SUSCRIBE </h2>
+    <?php if(isset($error)){echo '<p style="color:red;font-size:150%;">   '.$error.'</a>';}?>
     <form class=container method="post">
 
       <label for="fname"> First Name </label><br>
@@ -64,8 +65,8 @@
       <label for="hypotheek"> Hypotheek  </label>
       <input type="text" name="hypotheek" placeholder="(geen/ lopende/ afgestolen)" >
       -->
-      <button type="submit"  name='validate'>Suscribe</button>
-      <?php if(isset($error)){echo '<p style="color:red;font-size:200%;"> <br/><br/>   '.$error.'</a>';}?>
+      <button type="submit"  name='validate' >Suscribe</button>
+      
     </form>
   </div> 
   <script>
