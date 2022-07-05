@@ -102,6 +102,9 @@
 
 .client a p{
   color:  white;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:5px;
   background-color: #009353;
   padding : 5px;
   top : 6px;
