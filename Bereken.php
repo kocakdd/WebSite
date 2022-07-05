@@ -37,7 +37,7 @@
 </div>
 
   <!-- Content -->  
-<div class="content">
+
 
         <div class="span-left"  id="span-left" style="left:0%;">
           <?php include("Max_hypotheek.php"); ?>
@@ -128,7 +128,7 @@ function toggle_text_r() {
       </script>
 
 
-</div>
+
 
 </body>
 
