@@ -43,6 +43,7 @@
 
       <button type="submit"  name='validate'>Log in</button>
       <a href='wachtwoord_vergeten.php'> Forgot your password? </a>
+      <a class="sign" href='SignUp.php'><br>Don't have an account?</a>
       <?php if(isset($error)){echo '<p style="color:red;font-size:120%;"> <br/>'.$error.'</p>';}?>
     </form>
   </div> 
