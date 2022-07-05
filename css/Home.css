@@ -125,14 +125,17 @@ html,body {
   position: relative;
   height: auto;
   display : flex;
-  justify-content: space-evenly;
-  align-content: center;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 /* 2nd Opinion */
 
 .ndOpinion{
   position: relative;
   background-color : white;
+  margin:2%;
   text-align: center;
   -moz-box-shadow: 4px 4px 3px #009353;
   -webkit-box-shadow: 4px 4x 3px #009353;
@@ -316,12 +319,3 @@ html,body {
 }
 }
 
-@media screen and (max-width : 525px){
-  .three-blocks{
-    height : 450px;
-    justify-content: space-around;
-    align-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-  }
-}
