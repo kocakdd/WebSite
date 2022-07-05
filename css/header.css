@@ -40,9 +40,10 @@
 
 .link_menu li:hover{
   background: #009353;
+  opacity: 0.8;
 }
 .link_menu li a:hover{color: white;}
-.link_menu li:hover > ul{display: block;}
+.link_menu li:hover > ul{display: block; color: white;}
 .menu ul li{
   float: left;
   -webkit-transition: all .2s ease-in-out;
@@ -74,7 +75,9 @@
   position: absolute; 
   top: 100%;
   box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
-  border: 1px solid rgba(0,0,0,.1);
+  border: 6px solid #009353;
+  border-radius: 0px 20px 20px 20px;
+
 }
 .menu ul ul li{float: none; position: relative;height : fit-content;}
 .menu ul ul li a {
@@ -112,7 +115,8 @@
 }
 
 .en-cours{
-  text-decoration: underline!important;
+  background-color: #009353;
+  color : white!important;
 }
 
 @media screen and (max-width: 995px) {
