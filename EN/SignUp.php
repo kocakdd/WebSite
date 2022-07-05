@@ -1,38 +1,59 @@
-
-<?php require('sUp.php');?>
+<?php session_start();?>
+<?php require('../Action/log.php');?>
 <!DOCTYPE html>
-<html lang="NL">
+<html lang="EN">
 
 <head>	
+	<title> Hypotheekvitaal - Sign up </title>	
+	<META	NAME="author"	CONTENT="Kocak Derya">	
+	<META	NAME="description"	CONTENT="SignUp">	
+	<META	NAME="geography"	CONTENT="Rotterdam,	South-Holland,	Nertheland">	
+	<META	NAME="keywords"	CONTENT="Rotterdam, Hypotheekready">	
+	<META	NAME="subject"	CONTENT="Signup">	
+  <META  charset="UTF-8">
+  <META name="viewport" content="width=device-width, initial-scale=1">
 
+
+
+  <!-- Icon image -->
+  <link rel="icon" href="../images/LogoHyp.svg">
+	
 
   <!-- CSS link -->
 	<link rel="stylesheet" href="../css/SignUp.css">
 
 </head>	
 
+<body>
+    <!-- Header -->
+  <?php $nav_en_cours = 'account'; ?>
+  <?php require('header.php'); ?>
 
+  
   
   <!--Login Formulier -->
 
   <div class="formulier2">
     <h2 > SUSCRIBE </h2>
-    <?php if(isset($error)){echo '<p style="color:red;font-size:150%;">   '.$error.'</a>';}?>
+    <?php if(isset($error)){echo '<p style="color:red;font-size:150%;">    '.$error.'</a>';}?>
+    <div class="row">  
+    <div class="col">
     <form class=container method="post">
+  
+      <label for="fname"> Voornaam </label><br>
+      <input type="text" name="fname" placeholder="Voornaam placeholder" style="font-size:80%;" required><br>
 
-      <label for="fname"> First Name </label><br>
-      <input type="text" name="fname" placeholder="Voornaam placeholder" required><br>
-
-      <label for="lname"> Last Name </label><br>
-      <input type="text" name="lname" placeholder="Achternaam placeholder" required><br>
-      <label for="Telefonnummer"> Phone number </label><br>
-      <input type="number" name="telefonnummer" placeholder="Telefonnummer placeholder" required><br>
-
+      <label for="lname"> Achternaam </label><br>
+      <input type="text" name="lname" placeholder="Achternaam placeholder" style="font-size:80%;" required><br>
+      <label for="Telefonnummer"> Telefonnummer </label><br>
+      <input type="number" name="telefonnummer" placeholder="Telefonnummer placeholder" style="font-size:80%;" required><br>
+      </div>
+      <div class="col">
       <label for="email"> Email </label><br>
-      <input type="email" name="email" placeholder="Email placeholder" required><br>
+      <input type="email" name="email" placeholder="Email placeholder" style="font-size:80%;" required><br>
 
       <label for="password"> Password <!-- <img src="images/eye_hide.png" id="eye" onClick="changepass()"/> --></label><br>
-      <input type="password" id="password" name="password" placeholder="Password placeholder" title='Minstens 8 tekens inclusief een getal, een hoofdletter, een kleine letter en een symbool (!@#$%^&*=+-_)' pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$' required />
+      <input type="password" id="password" name="password" placeholder="Password placeholder" style="font-size:80%;" title='Minstens 8 tekens inclusief een getal, een hoofdletter, een kleine letter en een symbool (!@#$%^&*=+-_)' pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$' required /><br>
 
       
       <!--!
@@ -66,9 +87,10 @@
       <input type="text" name="hypotheek" placeholder="(geen/ lopende/ afgestolen)" >
       -->
       <button type="submit"  name='validate' >Suscribe</button>
-      
+      </div>
     </form>
   </div> 
+</div>
   <script>
     e=true;
     function changepass(){
@@ -86,6 +108,7 @@
       }
     }
 </script>
+<?php include('footer.php'); ?>
 
 
 </html>
