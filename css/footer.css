@@ -1,3 +1,6 @@
+*{
+  font-family: sofia-pro;
+}
 .footer {
     color:#f0f9ff;
     background-color:#009353;
@@ -26,7 +29,7 @@
     line-height:200%;
     
     font-size:85%;
-    font-family: yu-gothic;
+    font-family: sofia-pro;
     margin-bottom:10%;
   }
   
@@ -43,7 +46,7 @@
     margin-top:15%;
     margin-bottom: 2%;
     font-weight:bold;
-    font-family:yu-gothic;
+    font-family:sofia-pro;
     font-size:100%;
   }
   .footer p {
