@@ -66,10 +66,13 @@
       <select id="time" name="time" class="time"  required>
         <optgroup class="opt" >
       <option value=""  disabled selected><h1>Selecteer</h1></option>
-      <option value="9-12">9:00-12:00</option>
-      <option value="12-15">12:00-15:00</option>
-      <option value="15-18">15:00-18:00</option>
-      <option value="18-20">18:00-20:00</option>
+      <option value="9-12">9:00-10:30</option>
+      <option value="12-15">10:30-12:00</option>
+      <option value="15-18">12:00-13:30</option>
+      <option value="18-20">13:30-15:00</option>
+      <option value="18-20">15:00-16:30</option>
+      <option value="18-20">16:30-18:00</option>
+      <option value="18-20">18:00-19:30</option>
         </optgroup>
     </select> <br>
 
