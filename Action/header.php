@@ -39,7 +39,7 @@
         <ul class="logo_menu">
           <li> <a href="Home.php"><img src="images/LogoHyp.svg" alt="Logo Compagny"></a></li>
           <li class="text_logo"> <a href="Home.php"> 
-            <h2> HYPOTHEEKVITAAL</h2>
+            <h2> HytpotheekVitaal</h2>
             <p> Klaar voor een huis</p> 
           </a></li>
         </ul>
