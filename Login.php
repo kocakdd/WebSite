@@ -42,7 +42,8 @@
       
 
       <button type="submit"  name='validate'>Log in</button>
-      <a href='wachtwoord_vergeten.php'> Wachtwoord vergeten? </a>
+      <a href='wachtwoord_vergeten.php'> Wachtwoord vergeten? </a><br>
+      <a class="sign" href='SignUp.php'><br>Geen account?</a>
       <?php if(isset($error)){echo '<p style="color:red;font-size:120%;"> <br/>'.$error.'</p>';}?>
     </form>
   </div> 

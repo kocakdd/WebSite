@@ -103,6 +103,9 @@ button[type=submit]:hover {
   font-size: 90%;
   color : black;
 }
+.formulier form .sign{
+  padding-left:50px;
+}
 
 .formulier  form a:hover{
   position: relative;
