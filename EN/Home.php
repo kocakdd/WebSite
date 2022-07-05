@@ -140,43 +140,74 @@
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
         </div>
         <div class="slide">
-            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+            <p> Derya Kocak and Lisa Napierala are the creator of this website. </p>
         </div>
         <div class="slide">
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
         </div>
         <div class="slide">
-            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+            <p> Tell us if you like ! </p>
         </div>
         <div class="slide">
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
         </div>
         <div class="slide">
-            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+            <p> There is not a lot of space. See until when we can see the text. Not so much. </p>
         </div>
         <div class="slide">
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
         </div>
         <div class="slide">
-            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+            <p> Last text. I hope it will be okay </p>
         </div>
         <div class="slide">
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
         </div>
         <div class="slide">
-            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+            <p> Last text. I hope it will be okay </p>
         </div>
         <div class="slide">
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
         </div>
         <div class="slide">
-            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+            <p> Last text. I hope it will be okay </p>
         </div>
         <div class="slide">
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
         </div>
         <div class="slide">
+            <p> Derya Kocak and Lisa Napierala are the creator of this website. </p>
+        </div>
+        <div class="slide">
             <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <p> Tell us if you like ! </p>
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <p> There is not a lot of space. See until when we can see the text. Not so much. </p>
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <p> Last text. I hope it will be okay </p>
+        </div>
+        
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <p> Last text. I hope it will be okay </p>
+        </div>
+        <div class="slide">
+            <img class="mask-image" src="../images/Mask_1.svg" alt="Font Image">
+        </div>
+        <div class="slide">
+            <p> Last text. I hope it will be okay </p>
         </div>
     </div>
     </div> 
