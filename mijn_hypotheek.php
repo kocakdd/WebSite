@@ -27,7 +27,7 @@
   </div>
 </div>
   </div>
-  <div class="col-md-auto">
+  <!--<div class="col-md-auto">
   <div class="Situatie">
   <h2>Situatie Aanpassen</h2>
 </div>
@@ -48,9 +48,9 @@
     </optgroup>
   </select>
 
-      <input type="submit" value="Send"> <!-- Lien vers Formulier_verdonzen-->
+      <input type="submit" value="Send"> 
 </form>
-  </div>
+  </div> -->
   <div class="col">
 <div class="circles">
 <div class="block">
