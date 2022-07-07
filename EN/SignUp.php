@@ -26,7 +26,7 @@
 
 <body>
     <!-- Header -->
-  <?php $nav_en_cours = 'account'; ?>
+  <?php $nav_en_cours = 'login'; ?>
   <?php require('header.php'); ?>
 
   

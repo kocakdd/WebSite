@@ -20,7 +20,7 @@ if(isset($_POST['validate'])){
         if (mail($user_email, $subject, $message, $headers)) {
             $stmt = $bdd->prepare("UPDATE users SET password = ? WHERE email = ?");
             $stmt->execute([$hashedPassword, $_POST['email']]);
-            header('Location: Wachtwoord_verzonden.php');
+            header('Location: pwd_verzonden.php');
         } else {
             $error= 'An error happened, try again later';
         }

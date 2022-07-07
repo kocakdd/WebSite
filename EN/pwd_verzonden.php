@@ -11,7 +11,7 @@
 	<META	NAME="subject"	CONTENT="Hypotheek">	
 
   <!-- CSS link -->
-	<link rel="stylesheet" href="../css/hypotheek_verzonden.css">
+	<link rel="stylesheet" href="../css/formulier_verzonden.css">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -33,7 +33,7 @@
   <div class ="block">
   <p class="title1">  <br/> <br/> We sended your password    </p>
   <!-- Button -->
-  <button onclick="window.location.href='Account.php';" class="button"  role="button" >Return to Account </button>
+  <button onclick="window.location.href='Login.php';" class="button"  role="button" >Return to Login </button>
   
   </div>
 
