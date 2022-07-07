@@ -27,7 +27,7 @@
 
   <!-- Content -->  
 <div class="content">
-  <img class="desk-image" src="../images/Team.png" alt="Font Image">
+  <img class="desk-image" src="../images/Team.jpg" alt="Font Image">
 
   <div class="first-text-block">
     <h1 class="bigTitle1">Team</h1>

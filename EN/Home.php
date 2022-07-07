@@ -62,19 +62,19 @@
   <!-- The three blocks -->
   <div class="three-blocks">
   <div class="ndOpinion">
-    <img src="../images/Graph.svg" alt="Graphic">
+    <img src="../images/2option.svg" alt="Graphic">
     <h2> 2nd Opinion </h2>
     <p> Zekerheid over uw keuze </p>
   </div>
 
   <div class="ndOpinion">
-    <img src="../images/Graph.svg" alt="Graphic">
+    <img src="../images/hypoadvies.svg" alt="Graphic">
     <h2> Hypotheekadvies </h2>
     <p> Advies voor uw hypotheek </p>
   </div>
 
     <div class="ndOpinion">
-    <img src="../images/Graph.svg" alt="Graphic">
+    <img src="../images/hypoready.svg" alt="Graphic">
     <h2> Hypotheekready </h2>
     <p> Zekerheid over uw keuze </p>
   </div>
