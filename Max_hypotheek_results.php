@@ -122,7 +122,7 @@
 
     </form>
   -->
-  <?php include('SignUp.php'); ?>
+  <?php include('SignUpBereken.php'); ?>
   </div>
 </div>
    <!--Footer-->    

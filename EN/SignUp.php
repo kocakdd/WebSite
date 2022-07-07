@@ -40,12 +40,12 @@
     <div class="col">
     <form class=container method="post">
   
-      <label for="fname"> Voornaam </label><br>
+      <label for="fname"> Lastname </label><br>
       <input type="text" name="fname" placeholder="Voornaam placeholder" style="font-size:80%;" required><br>
 
-      <label for="lname"> Achternaam </label><br>
+      <label for="lname"> Firstname </label><br>
       <input type="text" name="lname" placeholder="Achternaam placeholder" style="font-size:80%;" required><br>
-      <label for="Telefonnummer"> Telefonnummer </label><br>
+      <label for="Telefonnummer"> Phone number </label><br>
       <input type="number" name="telefonnummer" placeholder="Telefonnummer placeholder" style="font-size:80%;" required><br>
       </div>
       <div class="col">
