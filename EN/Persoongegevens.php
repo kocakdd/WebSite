@@ -30,7 +30,7 @@
   <!-- htmlspecialchars allow to have the character < and no execution of html code -->
   <div class ="user_info">
     
-    <p class="label1"> Personal Informations </p>
+    <p class="label1"> Personal Informations <a href="modify.php"><img style="height:100%;opacity:0.8;" src="images/modify.png"/></a></p>
     <div class="row">
     <div class="col">
       <ul>

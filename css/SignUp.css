@@ -12,22 +12,6 @@ body{
 /* Login form */
 /**************/
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=email],input[type=password],input[type=text], input[type=number], select, textarea {
-  position: relative;
-  width: 90%; /* Full width */
-  padding: 1%; /* Some padding */ 
-  border: 0px outset #009353; /* Border */
-  /*box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 4%; /* Add a top margin */
-  margin-bottom: 3.3%; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  -moz-box-shadow: 3px 3px 8px #009353;
-  -webkit-box-shadow: 3px 3px 8px #009353;
-  box-shadow: 3px 3px 8px #009353;
-  font-size : 100%;
-  border-radius: 5px;
-}
 
 .block{
   position: relative;
@@ -57,16 +41,18 @@ input[type=email], input[type=password],input[type=text],input[type=number]{
 }
 /* Style the submit button with a specific background color etc */
 button[type=submit] {
+
   position : relative;
   background-color: white;
   color: #009353;
   border : 3px solid #009353;
   padding: 1% 5%;
   cursor: pointer;
+  align-items: center;
   font-size: 100%;
   border-radius: 5px;
   margin-top: 5.3%;
-  width : 50%;
+  width : 80%;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -91,6 +77,12 @@ button[type=submit]:hover {
   font-family: sofia-pro, yu-gothic,  sans-serif;
   font-weight : bold;
 }
+.last-row{
+  text-align: center;
+}
+.two{
+  padding:0.8%;
+}
 
 .formulier2 form label{
   font-size: 100%;
@@ -113,6 +105,7 @@ button[type=submit]:hover {
   position: relative;
   text-decoration: none;
   font-size: 90%;
+  
   color : black;
 }
 
@@ -121,5 +114,3 @@ button[type=submit]:hover {
   text-decoration: none;
   color : #009353;
 }
-
-
