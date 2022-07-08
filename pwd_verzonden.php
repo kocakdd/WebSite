@@ -31,7 +31,7 @@
   <div class ="block_text">
   <p class="title1">  <br/> <br/> Uw wachtwoord is gewijzigd  </p>
   <!-- Button -->
-  <button onclick="window.location.href='Login.php';" class="button"  role="button" >Terug naar Login </button>
+  <button onclick="window.location.href='Account.php';" class="button"  role="button" >Terug naar Login </button>
   
   </div>
 

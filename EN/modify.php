@@ -1,7 +1,7 @@
 <?php session_start();?>
-<?php require('Action/modif.php');?>
+<?php require('../Action/modif.php');?>
 <!DOCTYPE html>
-<html lang="NL">
+<html lang="EN">
 
 <head>	
 	<title> Hypotheekvitaal - Modify </title>	
@@ -16,36 +16,36 @@
 
 
   <!-- Icon image -->
-  <link rel="icon" href="images/LogoHyp.svg">
+  <link rel="icon" href="../images/LogoHyp.svg">
 	
 
   <!-- CSS link -->
-	<link rel="stylesheet" href="css/SignUp.css">
+	<link rel="stylesheet" href="../css/SignUp.css">
 
 </head>	
 
 <body>
     <!-- Header -->
   <?php $nav_en_cours = 'Account'; ?>
-  <?php require('Action/header.php'); ?>
+  <?php require('header.php'); ?>
 
   
   <!--Login Formulier -->
 
   <div class="formulier2">
   <form class=container method="post">  
-  <h2 > Persoonsgegevens </h2>
+  <h2 > Personal Informations </h2>
     <?php if(isset($error)){echo '<p style="color:red;font-size:80%;">    '.$error.'</a>';}?>
     <div class="row">  
     <div class="col">
     
   
-      <label for="fname"> Voornaam </label><br>
+      <label for="fname"> First name </label><br>
       <input type="text" name="fname" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['voornaam']) ?>'  required><br>
 
-      <label for="lname"> Achternaam </label><br>
+      <label for="lname"> Last name </label><br>
       <input type="text" name="lname" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['achternaam']) ?>'  required><br>
-      <label for="Telefonnummer"> Telefonnummer </label><br>
+      <label for="Telefonnummer"> Phone number </label><br>
       <input type="number" name="telefonnummer" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['telefonnummer']) ?>'  required><br>
       <label for="email"> Email </label><br>
       <input type="email" name="email" style="font-size:80%;color:grey;"  value='<?= htmlspecialchars($_SESSION['email'])?>'  required><br>
@@ -53,7 +53,7 @@
       <label for="Adres"> Adres </label>
       <input type="text" name="adres" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['adres'])?>'  >
       
-      <label for="Woonplaats"> Woonplaats </label>
+      <label for="Woonplaats"> City </label>
       <input type="text" name="woonplaats" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['woonplaats'])?>'>
 
       <label for="Postcode"> Postcode </label>
@@ -62,22 +62,22 @@
       </div>
       <div class="col two">
       
-      <label for="Leeftijd"> Leeftijd </label>
+      <label for="Leeftijd"> Age </label>
       <input type="number" name="leeftijd" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['leeftijd'])?>'>
 
-      <label for="Loon"> Loon </label>
+      <label for="Loon"> Salary </label>
       <input type="number" name="loon" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['loon'])?>'>
 
-      <label for="partner_fname"> Partner Voornaam </label>
+      <label for="partner_fname"> Partner First Name </label>
       <input type="text" name="partner_fname" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['pvoornaam'])?>'>
 
-      <label for="partner_lname"> Partner Achternaam </label>
+      <label for="partner_lname"> Partner Last Name </label>
       <input type="text" name="partner_lname" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['pachternaam'])?>'>
 
       <label for="Status"> Status <p class="info" style="font-size:70%;color:grey;line-height:7px;">Getrouwd / Samewonenend</p></label>
       <input type="text" name="status" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['status'])?>'>
 
-      <label for="hypotheek"> Hypotheek  <p class="info"style="font-size:70%;color:grey;line-height:7px">geen/ lopende/ afgestolen</p></label>
+      <label for="hypotheek"> Mortgage  <p class="info"style="font-size:70%;color:grey;line-height:7px">geen/ lopende/ afgestolen</p></label>
       <input type="text" name="hypotheek" style="font-size:80%;color:grey;" value='<?= htmlspecialchars($_SESSION['hypotheek'])?> '>
       
     
@@ -88,18 +88,18 @@
   <div class="row">
   <div class="col last-row">
   
-    <button type="submit"  name='back' >Terug naar Account</button>
+    <button type="submit"  name='back' >Back to Account</button>
   
   </div>  
   <div class="col last-row">
  
-    <button type="submit"  name='validate' >Wijzig</button>
+    <button type="submit"  name='validate' >Save</button>
   
 </div>
 </div>
 </form>
 </div>
   
-<?php include('Action/footer.php'); ?>
+<?php include('footer.php'); ?>
 
 </html>
