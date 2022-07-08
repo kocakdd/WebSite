@@ -17,15 +17,11 @@
 <body>
 
   <!-- Content --> 
-  <div class="container">
-<div class="row firstrow">
-  <div class="col-md-auto">
-<div class="graph">
-  <h2> Mijn Hypotheek </h2>
-  <div class="canvas-container" style="position: relative;  height:40vh; width:40vw">
-  <canvas id="myChart" ></canvas>
-  </div>
-</div>
+<div class="content_mijn">
+  <h1> Mijn Hypotheekoverzicht </h1>
+  <div class="id_number">
+    <h3>Hypotheeknummer: 59324335</h3>
+    <h3> LTV: 80%</h3>
   </div>
   <!--<div class="col-md-auto">
   <div class="Situatie">
@@ -51,33 +47,44 @@
       <input type="submit" value="Send"> 
 </form>
   </div> -->
-  <div class="col">
-<div class="circles">
-<div class="block">
-<h1>Maandelijkse </br>  Aflossing</h1>
-<div class="circle"> 
-<p>$465,40</p>
-</div>
-</div>
+  
+  <div class="circles">
+    <div class="block">
+      <h2>Maandelijkse </br>  Aflossing</h2>
+      <div class="circle"> 
+        <p>$465,40</p>
+      </div>
+    </div>
 
-<div class="block">
-<h1>Rente</h1>
-<div class="circle">
-<p> 3.3%</p>
-</div>
-</div>
+    <div class="block">
+      <h2></br>Rente</h2>
+      <div class="circle">
+        <p> 3.3%</p>
+      </div>
+    </div>
 
-<div class="block">
-<h1>Totaal </br> Afgelost</h1>
-<div class="circle"> 
-<p>$4235.20</p>
-</div>
-</div>
-</div>
+    <div class="block">
+      <h2>Totaal </br> Afgelost</h2>
+      <div class="circle"> 
+        <p>$4235.20</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="graph">
+    <div class="canvas-container" style="position: relative;  height:70; width:70vw">
+    <canvas id="myChart" ></canvas>
+    </div>
+  </div>
+
+  <div class="">
+    <h3> Locatie </h3>
+    <p> Random Adress</p>
+
   </div>
 </div>
 
-  </div>
 </body>
 <script>
   const labels = [
@@ -91,12 +98,25 @@
   const data = {
     labels: labels,
     datasets: [{
-      label: 'Mijn Hypotheek',
+      label: 'Total Hypotheek',
       backgroundColor: 'rgb(0, 147, 83)',
       borderColor: 'rgb(0, 147, 83)',
-      data: [375000,390000,420000,520000,580000],
+      data: [375000,300000,280000,220000,180000],
+    },
+    {
+      label: 'Repayment Hypotheek',
+      backgroundColor: 'rgb(182, 255, 14)',
+      borderColor: 'rgb(182, 255, 14)',
+      data: [370000,270000,240000,200000,100000],
+    },
+    {
+      label: 'Interest Hypotheek',
+      backgroundColor: 'rgb(14, 252, 85)',
+      borderColor: 'rgb(14, 252, 85)',
+      data: [5000,30000,40000,20000,80000],
     }]
   };
+  
 
   const config = {
     type: 'line',
@@ -104,8 +124,16 @@
     options: {
       plugins:{
       legend:{
-        display: false,
-      }
+        display: true,
+      },
+      title: {
+                display: true,
+                text: 'Custom Chart Title',
+                padding: {
+                    top: 10,
+                    bottom: 30,
+                }
+              }
     }
   },
     scales: {
@@ -120,6 +148,9 @@
     document.getElementById('myChart'),
     config
   );
+
+
+
 </script>
  
 </html>

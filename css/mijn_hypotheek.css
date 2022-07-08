@@ -1,5 +1,5 @@
 
- .body{
+body{
   position: relative;
   width: 100%;
   height : 100%;
@@ -9,16 +9,35 @@
    font-family: yu-gothic, sofia-pro, sans-serif;
    padding:0;
  }
- body{
-  display : grid;
-  grid-template-rows: auto 1fr auto;
+.content{
+  min-height: 1000px;
 }
+.content_mijn{
+  margin : 8.6%;
+}
+.content_mijn h1{
+  font-size:180%;
+  font-weight: bold;
+  padding-bottom:20px;
+ }
 
+/*
  .firstrow{
   position:relative;
   margin-top:50px;
   height:auto;
   margin-bottom:20px;
+ }
+ */
+
+ .id_number{
+    width: fit-content;
+    margin-bottom: 5%;
+ }
+
+ .id_number h3{
+  font-size:110%;
+  color : #009353;
  }
  /**********/
  /* CHART.JS*/
@@ -31,12 +50,6 @@
   width: 100%;
 }
 
- .graph h2{
-  font-size:180%;
-  font-weight: bold;
-  margin-bottom:20px;
- }
-
 
  /**********/
  /* CIRCLE*/
@@ -45,10 +58,14 @@
 .circles{
   position: relative;
   height: auto;
-  width: 165px;
+  width: 100%;
   margin-bottom:40px;
   align-items: center;
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 .block{
   position: relative;
   height:auto;
@@ -57,7 +74,6 @@
 }
 
  .circle { 
-  margin-left: 25px;
   width: 120px;
   height:120px;
   margin-top:20px;
@@ -75,12 +91,15 @@
   font-weight: bold;
 }
 
-.block h1{
+.block h2{
   font-size:130%;
   position:relative;
   text-align:center;
   margin-top:10px;
+  height : 70px;
 }
+
+
 /*********************/
 /* Situatie aanpassen*/
 /*********************/
