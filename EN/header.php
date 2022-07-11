@@ -38,9 +38,9 @@
        
         <ul class="logo_menu">
           <li> <a href="Home.php"><img src="../images/LogoHyp.svg" alt="Logo Compagny"></a></li>
-          <li class="text_logo"> <a href="Home.php"> 
+          <li class="text_logo"> <a href="Home.php" style="margin-left:-20%;"> 
             <h2> HypotheekVitaal </h2>
-            <p> Ready for an house</p> 
+            <p>Ready for an house</p> 
           </a></li>
         </ul>
 
