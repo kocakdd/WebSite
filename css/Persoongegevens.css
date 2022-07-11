@@ -9,7 +9,16 @@ body{
   display : grid;
   grid-template-rows: auto 1fr auto;
 }
-
+.container-person {
+    min-height: 600px;
+    width: 93%;
+    margin: 4.6%;
+}
+.container-person h1{
+  font-size:180%;
+  font-weight: bold;
+  padding-bottom:20px;
+ }
  /* My text*/
  .user_info{
   height:auto;
@@ -19,12 +28,10 @@ body{
  .label1{
   top:12%;
   position: relative;
-   font-size :180%;
-   height:40px;
-   font-weight: bold;
-   font-family:  sofia-pro, sans-serif;
-    margin-left:0;
-    margin-bottom:30px;
+  height:60px;
+  font-family:  sofia-pro, sans-serif;
+  margin-left:0;
+    
  }
 
  .label2{
@@ -84,6 +91,14 @@ body{
   list-style:none;
   line-height:120%;
   margin-bottom:10%;
+}
+
+.col-person {
+  box-shadow: 0px 0px 6px 0px #009353;
+}
+.col {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 @media screen and (max-width : 550px){

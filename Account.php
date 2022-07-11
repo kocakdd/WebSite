@@ -51,9 +51,9 @@
       
       <script type="text/javascript">
       
-      var windowHeight = document.documentElement.scrollHeight;
-      document.getElementById("span-right").style.height = windowHeight-250+ "px";
-      document.getElementById("span-left").style.height = windowHeight-250+ "px";
+      // var windowHeight = document.documentElement.scrollHeight;
+      // document.getElementById("span-right").style.height = windowHeight-250+ "px";
+      // document.getElementById("span-left").style.height = windowHeight-250+ "px";
 r=true;
 l=false;
 
@@ -136,9 +136,7 @@ function toggle_text_r() {
 </div>
 
 </body>
-   <!--Footer    -->
-  
-   <?php include('Action/footer.php'); ?>
+   
 
 
 </html>

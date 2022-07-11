@@ -9,16 +9,22 @@ body{
    font-family: yu-gothic, sofia-pro, sans-serif;
    padding:0;
  }
-.content{
-  min-height: 1000px;
-}
+
 .content_mijn{
-  margin : 8.6%;
+  margin : 4.6%;
 }
 .content_mijn h1{
   font-size:180%;
   font-weight: bold;
   padding-bottom:20px;
+ }
+
+.content_mijn h2{
+  font-size:130%;
+ }
+
+.content_mijn h3{
+  font-size:110%;
  }
 
 /*
@@ -36,7 +42,6 @@ body{
  }
 
  .id_number h3{
-  font-size:110%;
   color : #009353;
  }
  /**********/
@@ -48,6 +53,7 @@ body{
   position: relative;
   height:auto;
   width: 100%;
+  margin-top : 8%;
 }
 
 
@@ -62,7 +68,7 @@ body{
   margin-bottom:40px;
   align-items: center;
   display : flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -74,15 +80,15 @@ body{
 }
 
  .circle { 
-  width: 120px;
-  height:120px;
+  width: 160px;
+  height:160px;
   margin-top:20px;
   margin-bottom:20px;
   border-radius: 125px;
   background:#009353;
   align-items: center;
   text-align:center;
-  line-height: 110px;
+  line-height: 150px;
 }
 .circle p{
   position:relative;
@@ -92,11 +98,43 @@ body{
 }
 
 .block h2{
-  font-size:130%;
   position:relative;
   text-align:center;
   margin-top:10px;
   height : 70px;
+}
+
+/*********************/
+/*   Progress bar    */
+/*********************/
+.progress_bar{
+  margin : 5%;
+}
+.w3-light-grey{
+  color:#000!important;
+  background-color:#F8FFF9!important;
+  border : 2px solid #009353;
+  }
+.w3-container:after, .w3-container:before{
+  content:"";
+  display:table;
+  clear:both;
+}
+.w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#009353!important}
+.w3-center{text-align:center!important; padding : 10px}
+
+
+/**************/
+/*  Location  */
+/**************/
+
+.location{
+  display : flex;
+  margin-top : 2%;
+}
+
+.text-locatie h3{
+  font-weight: bold;
 }
 
 
@@ -112,7 +150,6 @@ body{
 }
 
 .Situatie h2{
- font-size:180%;
  font-weight: bold;
  margin-bottom:20px;
 }

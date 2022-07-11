@@ -26,47 +26,48 @@
 
 
    <!-- Body  -->
-<div class="container">
+<div class="container-person">
   <!-- htmlspecialchars allow to have the character < and no execution of html code -->
   <div class ="user_info">
     
-    <p class="label1"> Persoonsgegevens <a href="modify.php"><img style="height:100%;opacity:0.8;" src="images/modify.png"/></a></p>
+    <h1 class="label1"> Persoonsgegevens <a href="modify.php"><img style="height:100%;opacity:0.8;" src="images/modify.png"/></a></h1>
     <div class="row">
-    <div class="col">
+    <div class="col col-person">
       <ul>
-    <li><p class="label2"> Naam </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['voornaam'])." ".htmlspecialchars($_SESSION['achternaam']) ?></p></li>
+        <li><p class="label2"> Naam </p></li>
+        <li><p class="info"><?= htmlspecialchars($_SESSION['voornaam'])." ".htmlspecialchars($_SESSION['achternaam']) ?></p></li>
 
-    <li><p class="label2"> Adres </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['adres'])."  ".htmlspecialchars($_SESSION['woonplaats'])."  ".htmlspecialchars($_SESSION['postcode']) ?></p></li>
+        <li><p class="label2"> Adres </p></li>
+        <li><p class="info"><?= htmlspecialchars($_SESSION['adres'])."  ".htmlspecialchars($_SESSION['woonplaats'])."  ".htmlspecialchars($_SESSION['postcode']) ?></p></li>
 
-    <li><p class="label2"> E-mail adres </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['email'])?></p><li>
-  </ul></div>
-    <div class="col">
-    <ul>
-    <li><p class="label2"> Leeftijd </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['leeftijd']) ?></p></li>
+        <li><p class="label2"> E-mail adres </p></li>
+        <li><p class="info"><?= htmlspecialchars($_SESSION['email'])?></p><li>
+      </ul>
+    </div>
+    <div class="col col-person">
+      <ul>
+      <li><p class="label2"> Leeftijd </p></li>
+      <li><p class="info"><?= htmlspecialchars($_SESSION['leeftijd']) ?></p></li>
 
-    <li><p class="label2"> Loon </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['loon']) ?></p></li>
+      <li><p class="label2"> Loon </p></li>
+      <li><p class="info"><?= htmlspecialchars($_SESSION['loon']) ?></p></li>
 
-    <li><p class="label2"> Telefoonnummer </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['telefonnummer']) ?></p></li>
-    </ul>
+      <li><p class="label2"> Telefoonnummer </p></li>
+      <li><p class="info"><?= htmlspecialchars($_SESSION['telefonnummer']) ?></p></li>
+      </ul>
   </div>
 
-    <div class="col">
+    <div class="col col-person">
       <ul>
-    <li><p class="label2"> Naam Partner </p></li>
-    <li><p class="info"><?=htmlspecialchars( $_SESSION['pvoornaam'])."  ".htmlspecialchars($_SESSION['pachternaam']) ?></p></li>
+        <li><p class="label2"> Naam Partner </p></li>
+        <li><p class="info"><?=htmlspecialchars( $_SESSION['pvoornaam'])."  ".htmlspecialchars($_SESSION['pachternaam']) ?></p></li>
 
-    <li><p class="label2"> Status Partner </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['status']) ?></p></li>
+        <li><p class="label2"> Status Partner </p></li>
+        <li><p class="info"><?= htmlspecialchars($_SESSION['status']) ?></p></li>
 
-    <li><p class="label2"> Hypotheek </p></li>
-    <li><p class="info"><?= htmlspecialchars($_SESSION['hypotheek']) ?></p></li>
-</ul>
+        <li><p class="label2"> Hypotheek </p></li>
+        <li><p class="info"><?= htmlspecialchars($_SESSION['hypotheek']) ?></p></li>
+      </ul>
     </div>
     </div>
     <div class="row button">
@@ -80,6 +81,7 @@
     
 </div>
   </div>
+  <?php include('Action/footer.php'); ?>
 
 
 </body>

@@ -47,7 +47,15 @@
       <input type="submit" value="Send"> 
 </form>
   </div> -->
-  
+  <div class= "progress_bar">
+    <h2> Openstaande lening : </h2>
+    <p> $ 500 000 </p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-green w3-center" style="width:25%">25%</div>
+    </div><br>
+    <p style="text-align: right;"> Oorspronkelijke : $ 50 000 </p>
+  </div>
+
   <div class="circles">
     <div class="block">
       <h2>Maandelijkse </br>  Aflossing</h2>
@@ -72,21 +80,34 @@
 
   </div>
 
+  
+
   <div class="graph">
-    <div class="canvas-container" style="position: relative;  height:70; width:70vw">
+    <div class="canvas-container" style="position: relative;  left:10vw; width:70vw">
     <canvas id="myChart" ></canvas>
     </div>
   </div>
 
-  <div class="">
-    <h3> Locatie </h3>
-    <p> Random Adress</p>
-
+  <div style="margin-top: 10%">
+    <h2> Locatie </h2>
+    <div class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76477.64686188551!2d4.5495188959546455!3d51.93474447421445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c43366a91d4f5b%3A0xf43b51dff4165c58!2sPont%20%C3%89rasme!5e0!3m2!1sfr!2snl!4v1657443817648!5m2!1sfr!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="text-locatie" style="padding : 3%">
+        <h3>Waarde onderpand</h3>
+        <p> $ 500 000 </p>
+        <h3> Locatie </h3>
+        <p> Erasmusbrug, 3011 BN<br>Rotterdam, Netherland </p>
+      </div>
+    </div>
   </div>
 </div>
 
+<?php include('Action/footer.php'); ?>
+
 </body>
 <script>
+  // https://www.google.com/maps/search/?api=1
+  // Quick Facts, Fascinatio Boulevard, Capelle aan den IJssel
   const labels = [
     2017,
     2018,
@@ -127,13 +148,15 @@
         display: true,
       },
       title: {
-                display: true,
-                text: 'Custom Chart Title',
-                padding: {
-                    top: 10,
-                    bottom: 30,
-                }
-              }
+        display: true,
+        text: 'Custom Chart Title',
+        fontSize: 30,
+        padding: {
+            top: 10,
+            bottom: 30,
+        }
+        
+      }
     }
   },
     scales: {
